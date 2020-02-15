@@ -11,11 +11,12 @@
                 <div class="text-center">
                     <img class="img-thumbnail" src="{% static 'bigday/images/parroquia.jpg' %}"/>
                 </div>
+                <h4 class="section-heading text-left">{% trans "Hora: 17:30" %}</h4>
                 <h4 class="section-heading text-left">{% trans "Como llegar" %}</h4>
                 <p>
                     {% blocktrans %}
                         Para los que estéis en Ca'n Picafort o Manacor, dispondréis de buses que os recogerán y os llevaran
-                        tanto a la ceremonia como a la fiesta.
+                        tanto a la ceremonia como a la fiesta.<br/>
                         Si vais a ir a Ariany por vuestros propios medios, podéis encontrar donde está situado haciendo
                         click
                     {% endblocktrans %}<a
@@ -26,18 +27,18 @@
         </div>
     </div>
 </section>
-<hr class="primary">
 <section id="fiesta">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="section-heading text-center">{% trans "La fiesta" %}</h2>
+                <h2 class="section-heading text-center">{% trans "¿Dónde lo celebraremos?" %}</h2>
+                <p class="text-center">
+                    {% trans "La fiesta será en Casal Santa Eulàlia, entre Ca'n Picafort y Santa Margalida" %}
+                </p>
                 <div class="text-center">
                     <img class="img-thumbnail" src="{% static 'bigday/images/casal-santa-eulalia.jpg' %}"/>
                 </div>
-                <p>
-                    {% trans "La celebración de tan magno evento será en Casal Santa Eulàlia, entre Ca'n Picafort y Santa Margalida" %}
-                </p>
+                <h4 class="section-heading text-left">{% trans "Hora: 19:00" %}</h4>
                 <h4 class="section-heading text-left">{% trans "Como llegar" %}</h4>
                 <p>
                     {% blocktrans %}
@@ -51,5 +52,42 @@
                 </p>
             </div>
         </div>
+    </div>
+</section>
+<section id="horario" style="background-color: #d9edf7;">
+    <div class="container text-center">
+        <h2 class="section-heading text-center">{% trans "Horario" %}</h2>
+        <dl>
+            <dt>0am</dt>
+            <dd>Recogida en Manacor (Los autobuses os recogerán en C/..... -link-)</dd>
+        </dl>
+        <dl>
+            <dt>0am</dt>
+            <dd>Recogida en Ca'n Picafort (Los autobuses os recogerán en C/..... -link-)</dd>
+        </dl>
+        <dl>
+            <dt>0am</dt>
+            <dd>Ceremonia en Nuestra Señora de Atocha (Ariany)</dd>
+        </dl>
+        <dl>
+            <dt>0am</dt>
+            <dd>Salida hacia el Casal Santa Eulália</dd>
+        </dl>
+        <dl>
+            <dt>16:30</dt>
+            <dd>Aperitivo</dd>
+        </dl>
+        <dl>
+            <dt>16:30</dt>
+            <dd>Cena</dd>
+        </dl>
+        <dl>
+            <dt>16:30</dt>
+            <dd>Fiesta</dd>
+        </dl>
+        <dl>
+            <dt>16:30</dt>
+            <dd>Salida de buses hacia Manacor y Ca'n Picafort</dd>
+        </dl>
     </div>
 </section>
