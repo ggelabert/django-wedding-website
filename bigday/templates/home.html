@@ -23,9 +23,6 @@
             <li>
                 <a class="nav-link" href="#consejos">{% trans "Consejos" %}</a>
             </li>
-            <li>
-                <a class="nav-link" href="#otros">{% trans "Otros" %}</a>
-            </li>
         </ul>
         <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
             <input name="next" type="hidden" value="{{ redirect_to }}">
@@ -60,12 +57,46 @@
             </div>
         </section>
         {% include 'partials/ceremonia.html' %}
-        <section id="consejos">
-            {% include 'partials/consejos.html' %}
-        </section>
-        <section id="other-stuff" style="background-color: #f05f40; color: white">
+        <section id="consejos" style="background-color: #f05f40; color: white">
             {% include 'partials/misc.html' %}
         </section>
+{#        <section id="horario" style="background-color: #d9edf7;">#}
+{#            <div class="container text-center">#}
+{#                <h2 class="section-heading text-center">{% trans "Horario" %}</h2>#}
+{#                <dl>#}
+{#                    <dt>0am</dt>#}
+{#                    <dd>Recogida en Manacor (Los autobuses os recogerán en C/..... -link-)</dd>#}
+{#                </dl>#}
+{#                <dl>#}
+{#                    <dt>0am</dt>#}
+{#                    <dd>Recogida en Ca'n Picafort (Los autobuses os recogerán en C/..... -link-)</dd>#}
+{#                </dl>#}
+{#                <dl>#}
+{#                    <dt>0am</dt>#}
+{#                    <dd>Ceremonia en Nuestra Señora de Atocha (Ariany)</dd>#}
+{#                </dl>#}
+{#                <dl>#}
+{#                    <dt>0am</dt>#}
+{#                    <dd>Salida hacia el Casal Santa Eulália</dd>#}
+{#                </dl>#}
+{#                <dl>#}
+{#                    <dt>16:30</dt>#}
+{#                    <dd>Aperitivo</dd>#}
+{#                </dl>#}
+{#                <dl>#}
+{#                    <dt>16:30</dt>#}
+{#                    <dd>Cena</dd>#}
+{#                </dl>#}
+{#                <dl>#}
+{#                    <dt>16:30</dt>#}
+{#                    <dd>Fiesta</dd>#}
+{#                </dl>#}
+{#                <dl>#}
+{#                    <dt>16:30</dt>#}
+{#                    <dd>Salida de buses hacia Manacor y Ca'n Picafort</dd>#}
+{#                </dl>#}
+{#            </div>#}
+{#        </section>#}
         {% include 'partials/save-the-dates.html' %}
         <section id="contact" class="bg-dark">
             <div class="container">
