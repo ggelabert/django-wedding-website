@@ -9,19 +9,19 @@
     <nav class="nav justify-content-end">
         <ul class="nav">
             <li class="nav-item">
-                <a class="nav-link" href="#main-header">Inicio</a>
+                <a class="nav-link" href="#main-header">{% trans "Inicio" %}</a>
             </li>
             <li>
-                <a class="nav-link" href="#ceremonia">La ceremonia</a>
+                <a class="nav-link" href="#ceremonia">{% trans "La ceremonia" %}</a>
             </li>
             <li>
-                <a class="nav-link" href="#fiesta">La fiesta</a>
+                <a class="nav-link" href="#fiesta">{% trans "La fiesta" %}</a>
             </li>
             <li>
-                <a class="nav-link" href="#consejos">Consejos</a>
+                <a class="nav-link" href="#consejos">{% trans "Consejos" %}</a>
             </li>
             <li>
-                <a class="nav-link" href="#otros">Otros</a>
+                <a class="nav-link" href="#otros">{% trans "Otros" %}</a>
             </li>
         </ul>
         <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
@@ -39,18 +39,17 @@
         </form>
     </nav>
     {% block main %}
-        <section id="welcome">
+        <section id="welcome" style="background-color: #d9edf7;">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col text-center">
                         <h2>{% trans "¡Bienvenidos a nuestra boda!" %}</h2>
                         <img class="img-thumbnail" style="width:500px;" src="{% static 'bigday/images/parque-mirada.jpg' %}">
-                        <hr>
                         <p>
                             {% blocktrans %}
-                                Aquí podéis encontrar toda la información para acompañarnos en este día.
-                                Tenéis la información de la ceremonia, fiesta, transporte y algunos consejos útiles para que
-                                todo vaya rodado.
+                                Como no podía ser de otra manera teniendo a "un informático" como pareja, había que hacer una web.<br/>
+                                Aquí encontraréis toda la información y detalles para podernos acompañar en este día tan especial.<br/>
+                                ¡Seguid leyendo para enteraros de todo!
                             {% endblocktrans %}
                         </p>
                     </div>
@@ -61,7 +60,7 @@
         <section id="consejos">
             {% include 'partials/consejos.html' %}
         </section>
-        <section id="other-stuff" class="bg-primary">
+        <section id="other-stuff" style="background-color: #f05f40; color: white">
             {% include 'partials/misc.html' %}
         </section>
         {% include 'partials/save-the-dates.html' %}
