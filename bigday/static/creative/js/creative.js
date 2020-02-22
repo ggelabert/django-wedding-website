@@ -37,12 +37,17 @@
         }
     );
 
-    // Offset for Main Navigation - this turns the nav bar white
-    $('#mainNav').affix({
-        offset: {
-            top: 100
-        }
-    })
+    $('#language_es').on('click', function () {
+        console.log('language es');
+        $('#language').val('es');
+        $('#language_form').submit();
+    });
+
+    $('#language_ca').on('click', function () {
+        console.log('language ca');
+        $('#language').val('ca');
+        $('#language_form').submit();
+    });
 
 
 })(jQuery); // End of use strict
