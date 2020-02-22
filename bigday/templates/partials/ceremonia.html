@@ -5,22 +5,19 @@
         <div class="row">
             <div class="col-lg-12 ">
                 <h2 class="text-center">{% trans "La ceremonia" %}</h2>
-            <hr/>
+                <hr/>
                 <div class="text-center">
                     <img class="img-thumbnail" src="{% static 'bigday/images/parroquia.jpg' %}"/>
                 </div>
-                <h4 class="section-heading text-left">{% trans "Hora: 17:15" %}</h4>
-                <h4 class="section-heading text-left">{% trans "Como llegar" %}</h4>
-                <p>
-                    {% blocktrans %}
-                        Para los que estéis en Ca'n Picafort o Manacor, dispondréis de buses que os recogerán y os llevaran
-                        tanto a la ceremonia como a la fiesta.<br/>
-                        Si vais a ir a Crestatx por vuestros propios medios, podéis encontrar donde está situado haciendo
-                        click
-                    {% endblocktrans %}<a
-                        href="https://www.google.com/maps/place/Ermita+Santa+Margalida,+Crestatx/@39.8031923,3.0197415,17z/data=!3m1!4b1!4m12!1m6!3m5!1s0x1297d226b4c722a5:0x5e8a204769c3f2eb!2sErmita+Santa+Margalida,+Crestatx!8m2!3d39.8031882!4d3.0219302!3m4!1s0x1297d226b4c722a5:0x5e8a204769c3f2eb!8m2!3d39.8031882!4d3.0219302"
-                        target="_blank">{% trans "aquí" %}</a>
-                </p>
+                <h4 class="section-heading text-left">Dónde</h4>En la Ermita Santa Margalida, en <a
+                    href="https://www.google.com/maps/place/Ermita+Santa+Margalida,+Crestatx/@39.8031923,3.0197415,17z/data=!3m1!4b1!4m12!1m6!3m5!1s0x1297d226b4c722a5:0x5e8a204769c3f2eb!2sErmita+Santa+Margalida,+Crestatx!8m2!3d39.8031882!4d3.0219302!3m4!1s0x1297d226b4c722a5:0x5e8a204769c3f2eb!8m2!3d39.8031882!4d3.0219302"
+                    target="_blank">{% trans "Crestatx" %}</a>.
+                <h4 class="section-heading text-left">Cuándo</h4>Día 20 de junio de 2020, a las 17:15.
+                <h4 class="section-heading text-left">{% trans "Transporte" %}</h4>
+                {% blocktrans %}
+                    Dispondréis de buses desde Manacor y Ca'n Picafort que os llevarán la Ermita.
+                {% endblocktrans %}
+                <h4 class="section-heading text-left">¿Y si voy en coche?</h4>La ermita dispone de espacio para aparcar, y enfrente hay una urbanización donde también dispondréis de sitio.
             </div>
         </div>
     </div>
