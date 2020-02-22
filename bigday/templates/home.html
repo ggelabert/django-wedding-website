@@ -24,18 +24,11 @@
                 <a class="nav-link" href="#consejos">{% trans "Consejos" %}</a>
             </li>
         </ul>
-        <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+        <form id="language_form" action="{% url 'set_language' %}" method="post">{% csrf_token %}
             <input name="next" type="hidden" value="{{ redirect_to }}">
-            <select name="language">
-                {% get_current_language as LANGUAGE_CODE %}
-                <option value="es"{% if "es" == LANGUAGE_CODE %} selected{% endif %}>
-                    es
-                </option>
-                <option value="ca"{% if "ca" == LANGUAGE_CODE %} selected{% endif %}>
-                    ca
-                </option>
-            </select>
-            <input type="submit" value="Go">
+            {% get_current_language as LANGUAGE_CODE %}
+                <img src="{% static 'bigday/images/spain-icon.png' %}" alt="es"/>
+                <img src="{% static 'bigday/images/catalonia-icon.png' %}" alt="es"/>
         </form>
     </nav>
     {% block main %}
