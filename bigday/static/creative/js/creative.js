@@ -49,5 +49,13 @@
         $('#language_form').submit();
     });
 
+    const oneDay = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
+    const firstDate = new Date();
+    const secondDate = new Date(2020, 6, 20);
+
+    const diffDays = Math.round(Math.abs((firstDate - secondDate) / oneDay));
+
+    $('#dias_restantes').text(diffDays);
+
 
 })(jQuery); // End of use strict
