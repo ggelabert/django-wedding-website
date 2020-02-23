@@ -66,17 +66,16 @@ def send_invitation_email(party, test_only=False, recipients=None):
             msg_img.add_header('Content-ID', '<{}>'.format(filename))
             msg.attach(msg_img)
 
-    print ('sending invitation to {} ({})'.format(party.name, ', '.join(recipients)))
     if not test_only:
         print ('sending invitation to {} ({})'.format(party.name, ', '.join(recipients)))
         msg.send()
 
 
 def send_all_invitations(test_only, mark_as_sent):
-    print(test_only,mark_as_sent)
+    print(test_only, mark_as_sent)
     to_send_to = Party.in_default_order().filter(is_invited=True, invitation_sent=None).exclude(is_attending=False)
     for party in to_send_to:
-        print(party.name)
+        print("Party", party.name)
         send_invitation_email(party, test_only=test_only)
         if mark_as_sent:
             party.invitation_sent = datetime.now()

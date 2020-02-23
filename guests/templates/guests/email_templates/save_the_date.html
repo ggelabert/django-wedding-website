@@ -3,13 +3,13 @@
 {% block main_image %}
     <a href="{{ site_url }}"
        {% if email_mode %}target="_blank"{% endif %}>
-    {% with "save-the-date/images/"|add:main_image as main_static_url %}
-        <img src="{% if email_mode %}cid:{{ main_image }}{% else %}{% static main_static_url %}{% endif %}"
-             alt="{{ couple }}"
-             style="display: block; padding: 0; color: #666666; text-decoration: none; font-family: Helvetica, arial, sans-serif; font-size: 16px;"
-             class="img-max" border="0"
-             height="400" width="500">
-    {% endwith %}
+        {% with "save-the-date/images/"|add:main_image as main_static_url %}
+            <img src="{% if email_mode %}cid:{{ main_image }}{% else %}{% static main_static_url %}{% endif %}"
+                 alt="{{ couple }}"
+                 style="display: block; padding: 0; color: #666666; text-decoration: none; font-family: Helvetica, arial, sans-serif; font-size: 16px;"
+                 class="img-max" border="0"
+                 height="400" width="500">
+        {% endwith %}
     </a>
 {% endblock %}
 {% block main_copy %}
@@ -27,15 +27,12 @@
                 class="padding-copy"
                 align="center">
                 {{ couple }}<br>
-                Parroquia de Nuestra Señora de Atocha - Ariany<br>
+                Ermita Santa Margalida - Crestatx<br>
             </td>
         </tr>
         </tbody>
     </table>
 {% endblock %}
 {% block footer_content %}
-    Can't make it? Let us know at <a class="moz-txt-link-abbreviated" href="mailto:{{ rsvp_address }}">{{ rsvp_address }}</a>.
-    {% if email_mode %}
-        <p><a href="{{ site_url }}">{{ site_url }}</a></p>
-    {% endif %}
+    <p><a href="{{ site_url }}">{{ site_url }}</a></p>
 {% endblock %}
