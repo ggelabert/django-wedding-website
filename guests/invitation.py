@@ -25,14 +25,15 @@ def guess_party_by_invite_id_or_404(invite_id):
 def get_invitation_context(party):
     return {
         'title': "Lion's Head",
-        'main_image': 'bride-groom.png',
+        'main_image': 'bride-groom.jpg',
         'main_color': '#fff3e8',
         'font_color': '#666666',
-        'page_title': "Ana y Guillem - ¡Estáis invitadosand!",
-        'preheader_text': "You are invited!",
+        'page_title': "Ana y Guillem - ¡Estáis invitados!",
+        'preheader_text': "¡Estáis invitados!",
         'invitation_id': party.invitation_id,
+        'couple': settings.BRIDE_AND_GROOM,
         'party': party,
-        'meals': MEALS,
+        'site_url': settings.WEDDING_WEBSITE_URL
     }
 
 
@@ -40,7 +41,7 @@ def send_invitation_email(party, test_only=False, recipients=None):
     if recipients is None:
         recipients = party.guest_emails
     if not recipients:
-        print ('===== WARNING: no valid email addresses found for {} ====='.format(party))
+        print('===== WARNING: no valid email addresses found for {} ====='.format(party))
         return
     print(party.guest_emails)
     context = get_invitation_context(party)
@@ -59,7 +60,7 @@ def send_invitation_email(party, test_only=False, recipients=None):
                                  reply_to=[settings.DEFAULT_WEDDING_REPLY_EMAIL])
     msg.attach_alternative(template_html, "text/html")
     msg.mixed_subtype = 'related'
-    for filename in (context['main_image'], ):
+    for filename in (context['main_image'],):
         attachment_path = os.path.join(os.path.dirname(__file__), 'static', 'invitation', 'images', filename)
         with open(attachment_path, "rb") as image_file:
             msg_img = MIMEImage(image_file.read())
@@ -67,7 +68,7 @@ def send_invitation_email(party, test_only=False, recipients=None):
             msg.attach(msg_img)
 
     if not test_only:
-        print ('sending invitation to {} ({})'.format(party.name, ', '.join(recipients)))
+        print('sending invitation to {} ({})'.format(party.name, ', '.join(recipients)))
         msg.send()
 
 
