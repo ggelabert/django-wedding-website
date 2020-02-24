@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-24 22:23+0000\n"
+"POT-Creation-Date: 2020-02-24 22:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,12 +62,15 @@ msgstr ""
 "\n"
 "                            ¡Hola amics i família!\n"
 "                            El 20 de juny de 2020 ens casam.<br/>\n"
-"                            Encara falten <span id=\"dias_restantes\"></span> "
-"dies pel casament, però si voleu estar enterats de tot, sou al lloc indicat.<br/>\n"
-"                            Haurieu d'haver rebut un correu electrònic amb un enllaç per fonriarm la teva asistència<br/> "
-"                            Per favor, fes-ho com abans millor, així l'organització ens serà molt més fàcil.<br/>"
-"                            Segueix llegint per tenir tot la informació necessària per poder-nos acompanyar<br/> "
-"                            Comptam amb tú!\n"
+"                            Encara falten <span id=\"dias_restantes\"></"
+"span> dies pel casament, però si voleu estar enterats de tot, sou al lloc "
+"indicat.<br/>\n"
+"                            Haurieu d'haver rebut un correu electrònic amb "
+"un enllaç per fonriarm la teva asistència<br/>                             "
+"Per favor, fes-ho com abans millor, així l'organització ens serà molt més "
+"fàcil.<br/>                            Segueix llegint per tenir tot la "
+"informació necessària per poder-nos acompanyar<br/"
+">                             Comptam amb tú!\n"
 "                            "
 
 #: templates/home.html:102
@@ -78,9 +81,25 @@ msgstr "Contacta amb nosaltres"
 msgid "Si tienes cualquier duda o consulta, ¡pregunta!"
 msgstr "Si tens algun dubte o consulta, demana!"
 
+#: templates/partials/ceremonia.html:12
+msgid "Dónde"
+msgstr "On"
+
+#: templates/partials/ceremonia.html:12
+msgid "En la Ermita Santa Margalida, en"
+msgstr "A l'Ermita Santa Margalida, a"
+
 #: templates/partials/ceremonia.html:14
 msgid "Crestatx"
 msgstr "Crestatx"
+
+#: templates/partials/ceremonia.html:15
+msgid "Cuándo"
+msgstr "Quan"
+
+#: templates/partials/ceremonia.html:15
+msgid "Día 20 de junio de 2020, a las 17:15."
+msgstr "Dia 20 de juny de 2020, a les 17:15."
 
 #: templates/partials/ceremonia.html:16 templates/partials/ceremonia.html:42
 msgid "Transporte"
@@ -100,6 +119,16 @@ msgstr ""
 "vos duran fins l'Ermita.<br/>\n"
 "                    L'horari i punt de recollida ho afegira d'aquí unes "
 "setmanes                "
+
+#: templates/partials/ceremonia.html:21
+msgid "¿Y si voy en coche?"
+msgstr "Y si vaig en cotxe?"
+
+#: templates/partials/ceremonia.html:21
+msgid ""
+"La ermita dispone de espacio para aparcar, y enfrente hay una urbanización "
+"donde también dispondréis de sitio."
+msgstr "La ermita disposa d'espai per aparcar, y davant hi ha una urbanització, on també disposareu de lloc."
 
 #: templates/partials/ceremonia.html:40
 msgid "Casal Santa Eulalia"

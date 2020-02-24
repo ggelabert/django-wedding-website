@@ -9,16 +9,16 @@
                 <div class="text-center">
                     <img class="img-thumbnail" src="{% static 'bigday/images/parroquia.jpg' %}"/>
                 </div>
-                <h4 class="section-heading text-left">Dónde</h4>En la Ermita Santa Margalida, en <a
+                <h4 class="section-heading text-left">{% trans "Dónde" %}</h4>{% trans "En la Ermita Santa Margalida, en" %} <a
                     href="https://www.google.com/maps/place/Ermita+Santa+Margalida,+Crestatx/@39.8031923,3.0197415,17z/data=!3m1!4b1!4m12!1m6!3m5!1s0x1297d226b4c722a5:0x5e8a204769c3f2eb!2sErmita+Santa+Margalida,+Crestatx!8m2!3d39.8031882!4d3.0219302!3m4!1s0x1297d226b4c722a5:0x5e8a204769c3f2eb!8m2!3d39.8031882!4d3.0219302"
                     target="_blank">{% trans "Crestatx" %}</a>.
-                <h4 class="section-heading text-left">Cuándo</h4>Día 20 de junio de 2020, a las 17:15.
+                <h4 class="section-heading text-left">{% trans "Cuándo" %}</h4>{% trans "Día 20 de junio de 2020, a las 17:15." %}
                 <h4 class="section-heading text-left">{% trans "Transporte" %}</h4>
                 {% blocktrans %}
                     Dispondréis de buses desde Manacor y Ca'n Picafort que os llevarán la Ermita.<br/>
                     El horario y punto de recogida los añadiremos en unas semanas.
                 {% endblocktrans %}
-                <h4 class="section-heading text-left">¿Y si voy en coche?</h4>La ermita dispone de espacio para aparcar, y enfrente hay una urbanización donde también dispondréis de sitio.
+                <h4 class="section-heading text-left">{% trans "¿Y si voy en coche?" %}</h4>{% trans "La ermita dispone de espacio para aparcar, y enfrente hay una urbanización donde también dispondréis de sitio." %}
             </div>
         </div>
     </div>
@@ -36,8 +36,8 @@
                     <img class="img-thumbnail" src="{% static 'bigday/images/casal-santa-eulalia.jpg' %}"/>
                 </div>
                 <h4 class="section-heading text-left">Dónde</h4>En el <a
-                            href="https://www.google.com/maps/place/Casal+Santa+Eul%C3%A0lia+Hotel+%26+Restaurant/@39.7543731,3.1326613,17z/data=!3m1!4b1!4m8!3m7!1s0x129632131a8e94f3:0xa35c131e373324f3!5m2!4m1!1i2!8m2!3d39.754369!4d3.13485"
-                            target="_blank">{% trans "Casal Santa Eulalia" %}</a>, cerca de Ca'n Picafort.
+                    href="https://www.google.com/maps/place/Casal+Santa+Eul%C3%A0lia+Hotel+%26+Restaurant/@39.7543731,3.1326613,17z/data=!3m1!4b1!4m8!3m7!1s0x129632131a8e94f3:0xa35c131e373324f3!5m2!4m1!1i2!8m2!3d39.754369!4d3.13485"
+                    target="_blank">{% trans "Casal Santa Eulalia" %}</a>, cerca de Ca'n Picafort.
                 <h4 class="section-heading text-left">{% trans "Cúando" %}</h4>A las 19:00.<br/>Fin de fiesta a las 03:00.
                 <h4 class="section-heading text-left">{% trans "Transporte" %}</h4>Habrá buses de la ermita al Casal, y de regreso a los puntos de origen.
                 <h4 class="section-heading text-left">Parking</h4>El Casal dispone de parking, en unas semanas actualizaremos con la localización.
