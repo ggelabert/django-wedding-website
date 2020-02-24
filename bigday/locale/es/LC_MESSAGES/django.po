@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-24 22:23+0000\n"
+"POT-Creation-Date: 2020-02-24 23:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,8 +68,24 @@ msgstr ""
 msgid "Si tienes cualquier duda o consulta, ¡pregunta!"
 msgstr ""
 
+#: templates/partials/ceremonia.html:12 templates/partials/ceremonia.html:38
+msgid "Dónde"
+msgstr ""
+
+#: templates/partials/ceremonia.html:12
+msgid "En la Ermita Santa Margalida, en"
+msgstr ""
+
 #: templates/partials/ceremonia.html:14
 msgid "Crestatx"
+msgstr ""
+
+#: templates/partials/ceremonia.html:15
+msgid "Cuándo"
+msgstr ""
+
+#: templates/partials/ceremonia.html:15
+msgid "Día 20 de junio de 2020, a las 17:15."
 msgstr ""
 
 #: templates/partials/ceremonia.html:16 templates/partials/ceremonia.html:42
@@ -86,12 +102,56 @@ msgid ""
 "                "
 msgstr ""
 
+#: templates/partials/ceremonia.html:21
+msgid "¿Y si voy en coche?"
+msgstr ""
+
+#: templates/partials/ceremonia.html:21
+msgid ""
+"La ermita dispone de espacio para aparcar, y enfrente hay una urbanización "
+"donde también dispondréis de sitio."
+msgstr ""
+
+#: templates/partials/ceremonia.html:33
+msgid "Aperitivo, cena, copas y baile hasta que el cuerpo aguante."
+msgstr ""
+
+#: templates/partials/ceremonia.html:38
+msgid "En el"
+msgstr ""
+
 #: templates/partials/ceremonia.html:40
 msgid "Casal Santa Eulalia"
 msgstr ""
 
+#: templates/partials/ceremonia.html:40
+msgid "cerca de Ca'n Picafort."
+msgstr ""
+
 #: templates/partials/ceremonia.html:41
 msgid "Cúando"
+msgstr ""
+
+#: templates/partials/ceremonia.html:41
+msgid "A las 19:00."
+msgstr ""
+
+#: templates/partials/ceremonia.html:41
+msgid "Fin de fiesta a las 03:00."
+msgstr ""
+
+#: templates/partials/ceremonia.html:42
+msgid "Habrá buses de la ermita al Casal, y de regreso a los puntos de origen."
+msgstr ""
+
+#: templates/partials/ceremonia.html:43
+msgid "Parking"
+msgstr ""
+
+#: templates/partials/ceremonia.html:43
+msgid ""
+"El Casal dispone de parking, en unas semanas actualizaremos con la "
+"localización."
 msgstr ""
 
 #: templates/partials/misc.html:7

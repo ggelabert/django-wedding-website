@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-24 22:30+0000\n"
+"POT-Creation-Date: 2020-02-24 23:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,7 +81,7 @@ msgstr "Contacta amb nosaltres"
 msgid "Si tienes cualquier duda o consulta, ¡pregunta!"
 msgstr "Si tens algun dubte o consulta, demana!"
 
-#: templates/partials/ceremonia.html:12
+#: templates/partials/ceremonia.html:12 templates/partials/ceremonia.html:38
 msgid "Dónde"
 msgstr "On"
 
@@ -128,15 +128,52 @@ msgstr "Y si vaig en cotxe?"
 msgid ""
 "La ermita dispone de espacio para aparcar, y enfrente hay una urbanización "
 "donde también dispondréis de sitio."
-msgstr "La ermita disposa d'espai per aparcar, y davant hi ha una urbanització, on també disposareu de lloc."
+msgstr ""
+"La ermita disposa d'espai per aparcar, y davant hi ha una urbanització, on "
+"també disposareu de lloc."
+
+#: templates/partials/ceremonia.html:33
+msgid "Aperitivo, cena, copas y baile hasta que el cuerpo aguante."
+msgstr "Aperitiu, sopar, copes y ball fins que hi hagi forces."
+
+#: templates/partials/ceremonia.html:38
+msgid "En el"
+msgstr "Al"
 
 #: templates/partials/ceremonia.html:40
 msgid "Casal Santa Eulalia"
 msgstr "Casal Santa Eulàlia"
 
+#: templates/partials/ceremonia.html:40
+msgid "cerca de Ca'n Picafort."
+msgstr "aprop de Ca'n Picafort."
+
 #: templates/partials/ceremonia.html:41
 msgid "Cúando"
 msgstr "Quan"
+
+#: templates/partials/ceremonia.html:41
+msgid "A las 19:00."
+msgstr "A les 19:00."
+
+#: templates/partials/ceremonia.html:41
+msgid "Fin de fiesta a las 03:00."
+msgstr "Fí de festa a les 03:00."
+
+#: templates/partials/ceremonia.html:42
+msgid "Habrá buses de la ermita al Casal, y de regreso a los puntos de origen."
+msgstr "Hi haurà busos de l'ermita al Casal, y de tornada als punts d'origen."
+
+#: templates/partials/ceremonia.html:43
+msgid "Parking"
+msgstr "Parking"
+
+#: templates/partials/ceremonia.html:43
+msgid ""
+"El Casal dispone de parking, en unas semanas actualizaremos con la "
+"localización."
+msgstr ""
+"El Casal disposa de parking, d'aquí unes setmanes actualitzarem y posarem la localització."
 
 #: templates/partials/misc.html:7
 msgid "¿Sin invitación?"
