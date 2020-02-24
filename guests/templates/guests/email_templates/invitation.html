@@ -1,4 +1,5 @@
 {% extends 'guests/email_templates/email_base.html' %}
+{% load i18n %}
 {% load static %}
 {% block header_image %}{% endblock %}
 {% block lead_copy %}
@@ -7,7 +8,7 @@
             <table border="0" cellpadding="0" cellspacing="0" align="center">
                 <tbody>
                 <tr align="center" style="font-size: 32px;">
-                    <td>¡Nos casamos!</td>
+                    <td>{% trans "¡Nos casamos!" %}</td>
                 </tr>
                 <tr>
                     <td>
@@ -16,24 +17,29 @@
                 </tr>
                 <tr>
                     <td>
-                        El próximo 20 de junio de 2020 nos casamos.<br/>
-                        Tenemos muchas ganas de compartir este día con todos vosotros, y por ello hemos creado una web para que podáis estar al día de todo lo que vayamos preparando.
-                        <br/><br/>
-                        Mientras vamos cerrando todo lo que nos queda para asegurar que sea un día memorable para todos y que lo paséis genial, pásate por la web <a href="{{ site_url }}" target="_blank">{{ site_url }}</a> y mantente informado de como
-                        van avanzando las cosas.
+                        {% blocktrans %}
+                            El próximo 20 de junio de 2020 nos casamos.<br/>
+                            Tenemos muchas ganas de compartir este día con todos vosotros, y por ello hemos creado una web para que podáis estar al día de todo lo que vayamos preparando.
+                            <br/><br/>
+                            Mientras vamos cerrando todo lo que nos queda para asegurar que sea un día memorable para todos y que lo paséis genial, pásate por la web <a href="{{ site_url }}" target="_blank">{{ site_url }}</a> y mantente informado de
+                            como
+                            van avanzando las cosas.
+                        {% endblocktrans %}
                     </td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td><strong>Nos ayudarías mucho si haces click en el botón de más abajo donde pone "Ver tu invitación", y nos confirmaras tu asistencia, así como otros detalles importantes para tenerlo todo preparado.</strong></td>
+                    <td>
+                        <strong>{% trans "Nos ayudarías mucho si haces click en el botón de más abajo donde pone 'Ver tu invitación', y nos confirmaras tu asistencia, así como otros detalles importantes para tenerlo todo preparado." %}</strong>
+                    </td>
                 </tr>
                 <tr align="center">
                     <td>
                         <a href="{% if email_mode %}{{ site_url }}{% endif %}{% url 'invitation' invitation_id %}" target="_blank"
                            style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; background-color: #337ab7; border-top: 12px solid #337ab7; border-bottom: 12px solid #337ab7; border-right: 18px solid #337ab7; border-left: 18px solid #337ab7; display: inline-block;">
-                            Ver tu invitación
+                            {% trans "Ver tu invitación" %}
                         </a>
                     </td>
                 </tr>
@@ -55,19 +61,21 @@
     <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center">
         <tbody>
         <tr align="center" style="font-size: 32px;">
-            <td>¡Os esperamos!</td>
+            <td>{% trans "¡Os esperamos!" %}</td>
         </tr>
         <tr>
             <td style="font-weight:bold;padding: 20px 0 0 0; font-size: 16px; line-height: 20px; font-family: Helvetica, Arial, sans-serif; color: {{ font_color }};"
                 class="padding-copy" align="center">
-                Boda de {{ couple }} el 20 de junio de 2020<br>
+                {% blocktrans %}
+                Boda de {{ couple }} el 20 de junio de 2020
+                {% endblocktrans %}<br>
             </td>
         </tr>
         </tbody>
     </table>
 {% endblock %}
 {% block footer_content %}
-    Por favor confirmanos tu asistencia <a href="{% if email_mode %}{{ site_url }}{% endif %}{% url 'invitation' invitation_id %}">aquí</a><br>
+    {% trans "Por favor confirmanos tu asistencia" %} <a href="{% if email_mode %}{{ site_url }}{% endif %}{% url 'invitation' invitation_id %}">aquí</a><br>
     {% if email_mode %}
         <p><a href="{{ site_url }}">{{ site_url }}</a></p>
     {% endif %}
