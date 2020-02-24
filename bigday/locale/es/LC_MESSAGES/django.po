@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-03 22:38+0100\n"
+"POT-Creation-Date: 2020-02-24 22:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,74 +18,80 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: templates/home.html:46
-msgid "¡Bienvenidos a nuestra boda!"
+#: templates/home.html:12
+msgid "Inicio"
 msgstr ""
 
-#: templates/home.html:50
-msgid ""
-"\n"
-"                                Aquí podéis encontrar toda la información "
-"para acompañarnos en este día.\n"
-"                                Tenéis la información de la ceremonia, "
-"fiesta, transporte y algunos consejos útiles para que\n"
-"                                todo vaya rodado.\n"
-"                            "
+#: templates/home.html:15 templates/partials/ceremonia.html:7
+msgid "La ceremonia"
 msgstr ""
 
-#: templates/home.html:72
-msgid "Nuestro contacto"
-msgstr ""
-
-#: templates/home.html:74
-msgid "Si tienes cualquier duda o consulta, ¡pregunta!"
-msgstr ""
-
-#: templates/partials/ceremonia.html:10
-msgid ""
-"La ceremonia será en la Parroquia de Nuestra Señora de Atocha, en Ariany a "
-"las 17:30"
-msgstr ""
-
-#: templates/partials/ceremonia.html:13 templates/partials/ceremonia.html:38
-msgid "Como llegar"
-msgstr ""
-
-#: templates/partials/ceremonia.html:15
-msgid ""
-"\n"
-"                        Para los que estéis en Ca'n Picafort o Manacor, "
-"dispondréis de buses que os recogerán y os llevaran\n"
-"                        tanto a la ceremonia como a la fiesta.\n"
-"                        Si vais a ir a Ariany por vuestros propios medios, "
-"podéis encontrar donde está situado haciendo\n"
-"                        click\n"
-"                    "
-msgstr ""
-
-#: templates/partials/ceremonia.html:22 templates/partials/ceremonia.html:47
-msgid "aquí"
-msgstr ""
-
-#: templates/partials/ceremonia.html:32
+#: templates/home.html:18 templates/partials/ceremonia.html:30
 msgid "La fiesta"
 msgstr ""
 
-#: templates/partials/ceremonia.html:36
+#: templates/home.html:21
+msgid "Horario"
+msgstr ""
+
+#: templates/home.html:24
+msgid "Consejos"
+msgstr ""
+
+#: templates/home.html:40
+msgid "Nos casamos, ¿quieres acompañarnos?"
+msgstr ""
+
+#: templates/home.html:42
 msgid ""
-"La celebración de tan magno evento será en Casal Santa Eulàlia, entre Ca'n "
-"Picafort y Santa Margalida"
+"\n"
+"                            ¡Hola amigos y familia!\n"
+"                            El 20 de junio de 2020 nos casamos.<br/>\n"
+"                            Aún faltan <span id=\"dias_restantes\"></span> "
+"días para nuestra boda, pero si queréis estar enterados de todo, estáis en "
+"el lugar adecuado.<br/>\n"
+"                            Deberías haber recibido un correo electrónico "
+"con un enlace para confirmar tu asistencia.<br/>\n"
+"                            Por favor hazlo cuanto antes, así organizarlo "
+"todos nos será mucho más fácil.<br/>\n"
+"                            Sigue leyendo para tener toda la información "
+"necesaria para podernos acompañar.<br/>\n"
+"                            ¡Contamos contigo!\n"
+"                            "
+msgstr ""
+
+#: templates/home.html:102
+msgid "Nuestro contacto"
+msgstr ""
+
+#: templates/home.html:104
+msgid "Si tienes cualquier duda o consulta, ¡pregunta!"
+msgstr ""
+
+#: templates/partials/ceremonia.html:14
+msgid "Crestatx"
+msgstr ""
+
+#: templates/partials/ceremonia.html:16 templates/partials/ceremonia.html:42
+msgid "Transporte"
+msgstr ""
+
+#: templates/partials/ceremonia.html:17
+msgid ""
+"\n"
+"                    Dispondréis de buses desde Manacor y Ca'n Picafort que "
+"os llevarán la Ermita.<br/>\n"
+"                    El horario y punto de recogida los añadiremos en unas "
+"semanas.\n"
+"                "
 msgstr ""
 
 #: templates/partials/ceremonia.html:40
-msgid ""
-"\n"
-"                            Si no queréis llevar vuestro coche igual que "
-"para la ceremonia, habrá un bus que os llevará de\n"
-"                            la Parroquia hasta el lugar de la celebración.\n"
-"                            Si queréis llegar por vuestra cuenta, el Casal "
-"se encuentra\n"
-"                        "
+msgid "Casal Santa Eulalia"
+msgstr ""
+
+#: templates/partials/ceremonia.html:41
+msgid "Cúando"
 msgstr ""
 
 #: templates/partials/misc.html:7
@@ -95,10 +101,51 @@ msgstr ""
 #: templates/partials/misc.html:10
 msgid ""
 "\n"
-"                    No queremos hacer gastar papel innecesariamente, por lo "
-"que esta boda es una boda sin invitación física.\n"
-"                    Si te hemos enviado este enlace estás invitado. Por "
-"favor, confirmanos tu asistencia. (tlf1,tlf2).\n"
+"                    No queremos gastar papel innecesariamente, por lo que "
+"esta boda es una boda sin invitación física.\n"
+"                    Por favor, confirmanos tu asistencia en el enlace que "
+"has recibido por correo.\n"
+"                    Te agradecemos lo hagas lo antes posible para ayudarnos "
+"en la organización.\n"
+"                "
+msgstr ""
+
+#: templates/partials/misc.html:20
+msgid "¡Césped y suelo empedrado!"
+msgstr ""
+
+#: templates/partials/misc.html:23
+msgid ""
+"\n"
+"                    En el lugar de la celebración hay césped, así que si "
+"traéis tacones os aconsejas tener a mano un calzado alternativo (o muy buen "
+"equilibrio).\n"
+"                "
+msgstr ""
+
+#: templates/partials/misc.html:31
+msgid "Para los que vayan en coche"
+msgstr ""
+
+#: templates/partials/misc.html:34
+msgid ""
+"\n"
+"                    Aún no tenemos claro donde váis a aparcar, pero os lo "
+"diremos a tiempo.\n"
+"                "
+msgstr ""
+
+#: templates/partials/misc.html:42
+msgid "Para los que vayan en bus"
+msgstr ""
+
+#: templates/partials/misc.html:45
+msgid ""
+"\n"
+"                    Habrá dos buses: desde Manacor y desde Ca'n Picafort.<br/"
+">\n"
+"                    También tendréis buses para volver.<br/>\n"
+"                    En unas semanas os diremos dónde os recogerán.\n"
 "                "
 msgstr ""
 

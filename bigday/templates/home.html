@@ -39,7 +39,7 @@
                     <div class="col text-center">
                         <h2>{% trans "Nos casamos, ¿quieres acompañarnos?" %}</h2>
                         <img class="img-thumbnail" style="width:500px;" src="{% static 'bigday/images/parque-mirada.jpg' %}">
-                        <p>
+                        <p>{%  blocktrans %}
                             ¡Hola amigos y familia!
                             El 20 de junio de 2020 nos casamos.<br/>
                             Aún faltan <span id="dias_restantes"></span> días para nuestra boda, pero si queréis estar enterados de todo, estáis en el lugar adecuado.<br/>
@@ -47,6 +47,7 @@
                             Por favor hazlo cuanto antes, así organizarlo todos nos será mucho más fácil.<br/>
                             Sigue leyendo para tener toda la información necesaria para podernos acompañar.<br/>
                             ¡Contamos contigo!
+                            {% endblocktrans %}
                         </p>
                     </div>
                 </div>
