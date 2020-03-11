@@ -16,13 +16,11 @@ def import_guests(path):
             if first_row:
                 first_row = False
                 continue
-            party_name, first_name, last_name, party_type, is_child, category, is_invited, email = row[:8]
+            party_name, first_name, last_name, is_child, is_invited, email = row[:6]
             if not party_name:
                 print ('skipping row {}'.format(row))
                 continue
             party = Party.objects.get_or_create(name=party_name)[0]
-            party.type = party_type
-            party.category = category
             party.is_invited = _is_true(is_invited)
             if not party.invitation_id:
                 party.invitation_id = uuid.uuid4().hex
