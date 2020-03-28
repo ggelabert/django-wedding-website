@@ -12,33 +12,37 @@ from guests.models import Party
 
 SAVE_THE_DATE_TEMPLATE = 'guests/email_templates/save_the_date.html'
 SAVE_THE_DATE_CONTEXT_MAP = {
-    'save-the-date-1': {
-        'title': "Save the date 1",
-        'header_filename': 'hearts.png',
-        'main_image': 'save the date 1.jpg',
-        'main_color': '#fff3e8',
-        'font_color': '#666666',
-    },
-    'save-the-date-2': {
-        'title': 'Save the date 2',
-        'header_filename': 'hearts.png',
-        'main_image': 'save the date 2.jpg',
-        'main_color': '#330033',
-        'font_color': '#ffffff',
-    },
     'save-the-date-3': {
         'title': 'Save the date 3',
         'header_filename': 'hearts.png',
-        'main_image': 'save the date 3.jpg',
+        'main_image': 'save-the-date-3.jpg',
         'main_color': '#ea2e2e',
         'font_color': '#e5ddd9',
+        'thumb': 'save-the-date-3-thumb.jpg',
     },
-    'save-the-date-4': {
-        'title': 'Save the date 4',
+    'save-the-date-1': {
+        'title': "Cat's & Wine",
         'header_filename': 'hearts.png',
-        'main_image': 'save the date 4.jpg',
+        'main_image': 'save-the-date-1.jpg',
+        'main_color': '#fff3e8',
+        'font_color': '#666666',
+        'thumb': 'save-the-date-1-thumb.jpg',
+    },
+    'save-the-date-6': {
+        'title': 'Luggage',
+        'header_filename': 'hearts.png',
+        'main_image': 'save-the-date-6.jpg',
+        'main_color': '#330033',
+        'font_color': '#ffffff',
+        'thumb': 'save-the-date-6-thumb.jpg',
+    },
+    'save-the-date-5': {
+        'title': 'Save the date 5',
+        'header_filename': 'hearts.png',
+        'main_image': 'save-the-date-5.jpg',
         'main_color': '#ea2e2e',
         'font_color': '#e5ddd9',
+        'thumb': 'save-the-date-5-thumb.jpg',
     }
 }
 
