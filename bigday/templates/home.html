@@ -6,48 +6,50 @@
     <link href="{% static 'bigday/css/creative.css' %}" rel="stylesheet">
 {% endblock %}
 {% block page_content %}
-    <nav class="nav" style="background-color: aliceblue;">
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#main-header">{% trans "Inicio" %}</a>
-            </li>
-            <li>
-                <a class="nav-link" href="#ceremonia">{% trans "La ceremonia" %}</a>
-            </li>
-            <li>
-                <a class="nav-link" href="#fiesta">{% trans "La fiesta" %}</a>
-            </li>
-            <li>
-                <a class="nav-link" href="#horario">{% trans "Horario" %}</a>
-            </li>
-            <li>
-                <a class="nav-link" href="#consejos">{% trans "Consejos" %}</a>
-            </li>
-        </ul>
-        <form id="language_form" action="{% url 'set_language' %}" method="post">{% csrf_token %}
-            <input name="next" type="hidden" value="{{ redirect_to }}">
-            {% get_current_language as LANGUAGE_CODE %}
-            <input id="language" name="language" type="hidden" value="{{ LANGUAGE_CODE }}"/>
-            <a id="language_es" href="#"><img src="{% static 'bigday/images/spain-icon.png' %}" alt="es"/></a>
-            <a id="language_ca" href="#"><img src="{% static 'bigday/images/catalonia-icon.png' %}" alt="es"/></a>
-        </form>
-    </nav>
+    <form id="language_form" action="{% url 'set_language' %}" method="post">{% csrf_token %}
+        <input name="next" type="hidden" value="{{ redirect_to }}">
+        {% get_current_language as LANGUAGE_CODE %}
+        <input id="language" name="language" type="hidden" value="{{ LANGUAGE_CODE }}"/>
+        <nav class="nav" style="background-color: aliceblue;">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#main-header">{% trans "Inicio" %}</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#ceremonia">{% trans "La ceremonia" %}</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#fiesta">{% trans "La fiesta" %}</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#consejos">{% trans "Consejos" %}</a>
+                </li>
+
+                <li><a class="nav-link" id="language_es" href="#">Castellano</a></li>
+                <li><a class="nav-link" id="language_ca" href="#">Català</a></li>
+
+            </ul>
+        </nav>
+    </form>
     {% block main %}
         <section id="welcome">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col text-center">
                         <h2>{% trans "Nos casamos, ¿quieres acompañarnos?" %}</h2>
-                        <img class="img-thumbnail" style="width:500px;" src="{% static 'bigday/images/parque-mirada.jpg' %}">
-                        <p>{%  blocktrans %}
+                        <img class="img-thumbnail" style="width:500px;"
+                             src="{% static 'bigday/images/parque-mirada.jpg' %}">
+                        <p>{% blocktrans %}
                             ¡Hola amigos y familia!
                             El 20 de junio de 2020 nos casamos.<br/>
-                            Aún faltan <span id="dias_restantes"></span> días para nuestra boda, pero si queréis estar enterados de todo, estáis en el lugar adecuado.<br/>
-                            Deberías haber recibido un correo electrónico con un enlace para confirmar tu asistencia.<br/>
+                            Aún faltan <span id="dias_restantes"></span> días para nuestra boda, pero si queréis estar
+                            enterados de todo, estáis en el lugar adecuado.<br/>
+                            Deberías haber recibido un correo electrónico con un enlace para confirmar tu asistencia.
+                            <br/>
                             Por favor hazlo cuanto antes, así organizarlo todos nos será mucho más fácil.<br/>
                             Sigue leyendo para tener toda la información necesaria para podernos acompañar.<br/>
                             ¡Contamos contigo!
-                            {% endblocktrans %}
+                        {% endblocktrans %}
                         </p>
                     </div>
                 </div>
