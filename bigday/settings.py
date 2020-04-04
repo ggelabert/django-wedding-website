@@ -149,7 +149,7 @@ DEFAULT_WEDDING_TEST_EMAIL = DEFAULT_WEDDING_FROM_EMAIL
 BRIDE_AND_GROOM = 'Ana y Guillem'
 
 # This is used in links in save the date / invitations
-WEDDING_WEBSITE_URL = 'http://www.anayguillemsecasan.com'
+WEDDING_WEBSITE_URL = 'https://anayguillemsecasan.com'
 WEDDING_CC_LIST = []  # put email addresses here if you want to cc someone on all your invitations
 
 # change to a real email backend in production
