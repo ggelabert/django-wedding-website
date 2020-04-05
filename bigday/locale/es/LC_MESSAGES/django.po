@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-24 23:39+0000\n"
+"POT-Creation-Date: 2020-04-05 09:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,28 +18,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: templates/home.html:12
+#: templates/home.html:16
 msgid "Inicio"
 msgstr ""
 
-#: templates/home.html:15 templates/partials/ceremonia.html:7
-msgid "La ceremonia"
+#: templates/home.html:19
+msgid "Ceremonia"
 msgstr ""
 
-#: templates/home.html:18 templates/partials/ceremonia.html:30
-msgid "La fiesta"
+#: templates/home.html:22
+msgid "Fiesta"
 msgstr ""
 
-#: templates/home.html:21
-msgid "Horario"
-msgstr ""
-
-#: templates/home.html:24
+#: templates/home.html:25
 msgid "Consejos"
 msgstr ""
 
-#: templates/home.html:40
-msgid "Nos casamos, ¿quieres acompañarnos?"
+#: templates/home.html:39
+msgid "Nos casamos!! ¿quieres acompañarnos?"
 msgstr ""
 
 #: templates/home.html:42
@@ -48,165 +44,177 @@ msgid ""
 "                            ¡Hola amigos y familia!\n"
 "                            El 20 de junio de 2020 nos casamos.<br/>\n"
 "                            Aún faltan <span id=\"dias_restantes\"></span> "
-"días para nuestra boda, pero si queréis estar enterados de todo, estáis en "
-"el lugar adecuado.<br/>\n"
+"días para nuestra boda, pero si quieres estar\n"
+"                            enterado de todo, estás en el lugar adecuado.<br/"
+">\n"
 "                            Deberías haber recibido un correo electrónico "
-"con un enlace para confirmar tu asistencia.<br/>\n"
+"con un enlace para confirmar tu asistencia.\n"
+"                            <br/>\n"
 "                            Por favor hazlo cuanto antes, así organizarlo "
-"todos nos será mucho más fácil.<br/>\n"
-"                            Sigue leyendo para tener toda la información "
-"necesaria para podernos acompañar.<br/>\n"
+"todo nos será mucho más fácil.<br/>\n"
+"                            Sigue leyendo para tener la información "
+"necesaria.<br/>\n"
 "                            ¡Contamos contigo!\n"
-"                            "
+"                        "
 msgstr ""
 
-#: templates/home.html:102
+#: templates/home.html:68
 msgid "Nuestro contacto"
 msgstr ""
 
-#: templates/home.html:104
+#: templates/home.html:70
 msgid "Si tienes cualquier duda o consulta, ¡pregunta!"
 msgstr ""
 
-#: templates/partials/ceremonia.html:12 templates/partials/ceremonia.html:38
+#: templates/partials/ceremonia.html:7
+msgid "La ceremonia"
+msgstr ""
+
+#: templates/partials/ceremonia.html:13 templates/partials/ceremonia.html:43
 msgid "Dónde"
 msgstr ""
 
-#: templates/partials/ceremonia.html:12
+#: templates/partials/ceremonia.html:13
 msgid "En la Ermita Santa Margalida, en"
 msgstr ""
 
-#: templates/partials/ceremonia.html:14
+#: templates/partials/ceremonia.html:16
 msgid "Crestatx"
 msgstr ""
 
-#: templates/partials/ceremonia.html:15
+#: templates/partials/ceremonia.html:17
 msgid "Cuándo"
 msgstr ""
 
-#: templates/partials/ceremonia.html:15
+#: templates/partials/ceremonia.html:17
 msgid "Día 20 de junio de 2020, a las 17:15."
 msgstr ""
 
-#: templates/partials/ceremonia.html:16 templates/partials/ceremonia.html:42
+#: templates/partials/ceremonia.html:18 templates/partials/ceremonia.html:47
 msgid "Transporte"
 msgstr ""
 
-#: templates/partials/ceremonia.html:17
+#: templates/partials/ceremonia.html:19
 msgid ""
 "\n"
-"                    Dispondréis de buses desde Manacor y Ca'n Picafort que "
-"os llevarán la Ermita.<br/>\n"
-"                    El horario y punto de recogida los añadiremos en unas "
-"semanas.\n"
-"                "
+"                        Dispondréis de buses desde Manacor y Ca'n Picafort "
+"que os llevarán la Ermita.<br/>\n"
+"                        En unas semanas añadiremos el horario y puntos de "
+"recogida.\n"
+"                    "
 msgstr ""
 
-#: templates/partials/ceremonia.html:21
+#: templates/partials/ceremonia.html:23
 msgid "¿Y si voy en coche?"
 msgstr ""
 
-#: templates/partials/ceremonia.html:21
+#: templates/partials/ceremonia.html:23
 msgid ""
 "La ermita dispone de espacio para aparcar, y enfrente hay una urbanización "
 "donde también dispondréis de sitio."
 msgstr ""
 
-#: templates/partials/ceremonia.html:33
+#: templates/partials/ceremonia.html:34
+msgid "La fiesta"
+msgstr ""
+
+#: templates/partials/ceremonia.html:37
 msgid "Aperitivo, cena, copas y baile hasta que el cuerpo aguante."
 msgstr ""
 
-#: templates/partials/ceremonia.html:38
+#: templates/partials/ceremonia.html:43
 msgid "En el"
 msgstr ""
 
-#: templates/partials/ceremonia.html:40
+#: templates/partials/ceremonia.html:45
 msgid "Casal Santa Eulalia"
 msgstr ""
 
-#: templates/partials/ceremonia.html:40
+#: templates/partials/ceremonia.html:45
 msgid "cerca de Ca'n Picafort."
 msgstr ""
 
-#: templates/partials/ceremonia.html:41
+#: templates/partials/ceremonia.html:46
 msgid "Cúando"
 msgstr ""
 
-#: templates/partials/ceremonia.html:41
+#: templates/partials/ceremonia.html:46
 msgid "A las 19:00."
 msgstr ""
 
-#: templates/partials/ceremonia.html:41
+#: templates/partials/ceremonia.html:46
 msgid "Fin de fiesta a las 03:00."
 msgstr ""
 
-#: templates/partials/ceremonia.html:42
-msgid "Habrá buses de la ermita al Casal, y de regreso a los puntos de origen."
+#: templates/partials/ceremonia.html:47
+msgid ""
+"Habrá buses desde la ermita al Casal, y de regreso a los puntos de origen."
 msgstr ""
 
-#: templates/partials/ceremonia.html:43
+#: templates/partials/ceremonia.html:48
 msgid "Parking"
 msgstr ""
 
-#: templates/partials/ceremonia.html:43
+#: templates/partials/ceremonia.html:48
 msgid ""
 "El Casal dispone de parking, en unas semanas actualizaremos con la "
 "localización."
 msgstr ""
 
-#: templates/partials/misc.html:7
+#: templates/partials/misc.html:8
 msgid "¿Sin invitación?"
 msgstr ""
 
-#: templates/partials/misc.html:10
+#: templates/partials/misc.html:11
 msgid ""
 "\n"
-"                    No queremos gastar papel innecesariamente, por lo que "
-"esta boda es una boda sin invitación física.\n"
-"                    Por favor, confirmanos tu asistencia en el enlace que "
-"has recibido por correo.\n"
-"                    Te agradecemos lo hagas lo antes posible para ayudarnos "
-"en la organización.\n"
-"                "
+"                        No queremos gastar papel innecesariamente, por lo "
+"que esta boda es una boda sin invitación\n"
+"                        física.\n"
+"                        Por favor, confírmanos tu asistencia en el enlace "
+"que has recibido por correo.\n"
+"                        Te agradecemos lo hagas lo antes posible para "
+"ayudarnos en la organización.\n"
+"                    "
 msgstr ""
 
-#: templates/partials/misc.html:20
+#: templates/partials/misc.html:22
 msgid "¡Césped y suelo empedrado!"
 msgstr ""
 
-#: templates/partials/misc.html:23
+#: templates/partials/misc.html:25
 msgid ""
 "\n"
-"                    En el lugar de la celebración hay césped, así que si "
-"traéis tacones os aconsejas tener a mano un calzado alternativo (o muy buen "
-"equilibrio).\n"
-"                "
+"                        En el lugar de la celebración hay césped y suelo "
+"rústico. Cuida tus tobillos!\n"
+"                    "
 msgstr ""
 
-#: templates/partials/misc.html:31
+#: templates/partials/misc.html:33
 msgid "Para los que vayan en coche"
 msgstr ""
 
-#: templates/partials/misc.html:34
+#: templates/partials/misc.html:36
 msgid ""
 "\n"
-"                    Aún no tenemos claro donde váis a aparcar, pero os lo "
-"diremos a tiempo.\n"
-"                "
+"                        Aún no tenemos claro donde váis a aparcar, pero os "
+"lo diremos a tiempo.\n"
+"                    "
 msgstr ""
 
-#: templates/partials/misc.html:42
+#: templates/partials/misc.html:44
 msgid "Para los que vayan en bus"
 msgstr ""
 
-#: templates/partials/misc.html:45
+#: templates/partials/misc.html:47
 msgid ""
 "\n"
-"                    Habrá dos buses: desde Manacor y desde Ca'n Picafort.<br/"
+"                        Habrá buses: desde Manacor y desde Ca'n Picafort.<br/"
 ">\n"
-"                    También tendréis buses para volver.<br/>\n"
-"                    En unas semanas os diremos dónde os recogerán.\n"
-"                "
+"                        También tendréis buses para volver.<br/>\n"
+"                        En unas semanas os diremos dónde y cuándo os "
+"recogerán.\n"
+"                    "
 msgstr ""
 
 #~ msgid "ddd"

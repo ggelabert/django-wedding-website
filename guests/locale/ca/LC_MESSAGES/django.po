@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-24 23:54+0000\n"
+"POT-Creation-Date: 2020-04-05 10:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,24 +39,22 @@ msgstr "Ens casam!"
 #| "                        "
 msgid ""
 "\n"
-"                            El próximo 20 de junio de 2020 nos casamos.<br/"
-">\n"
 "                            Tenemos muchas ganas de compartir este día con "
-"todos vosotros, y por ello hemos creado una web para que podáis estar al día "
-"de todo lo que vayamos preparando.\n"
+"todos vosotros, por ello hemos creado una web\n"
+"                            con la que podréis estar al día de todo lo que "
+"vayamos preparando.\n"
 "                            <br/><br/>\n"
 "                            Mientras vamos cerrando todo lo que nos queda "
-"para asegurar que sea un día memorable para todos y que lo paséis genial, "
-"pásate por la web <a href=\"%(site_url)s\" target=\"_blank\">%(site_url)s</"
-"a> y mantente informado de\n"
-"                            como\n"
-"                            van avanzando las cosas.\n"
+"para asegurar que sea un día memorable para\n"
+"                            todos y que lo paséis genial, pásate por la web\n"
+"                            <a href=\"%(site_url)s\" target=\"_blank\">"
+"%(site_url)s</a> y mantente informado de\n"
+"                            cómo van avanzando las cosas.\n"
 "                        "
 msgstr ""
 "\n"
-"El pròxim 20 de juny de 2020 ens casam.<br/>\n"
-"Tenim moltess ganes de compartir aquest dia amb tots vosaltres\n"
-" i per això hem fet aquesta web. Així podreu estar al dia de tot el que "
+"Tenim moltess ganes de compartir aquest dia amb tots vosaltres."
+"Per això hem fet aquesta web on podreu estar al dia de tot el que "
 "anirem preparant.\n"
 " <br/><br/>\n"
 "Mentres anam tancant tot el que ens queda per assegurar que sigui un dia "
@@ -64,36 +62,61 @@ msgstr ""
 "\"%(site_url)s\" target=\"_blank\">%(site_url)s</a> i estaràs informat de "
 "com van avançant les coses."
 
-#: templates/guests/email_templates/invitation.html:35
+#: templates/guests/email_templates/invitation.html:33
+msgid ""
+"\n"
+"                            A pesar de la incertidumbre sobre la celebración "
+"de eventos en los próximos meses por el COVID-19, nosotros seguimos con "
+"nuestros planes originales. En caso de tener que modificar fecha o "
+"localización del evento os avisaremos immediatamente.\n"
+"                        "
+msgstr ""
+"\n"
+"                            Malgrat la incertesa en la celebració "
+"d'events durant els próxims mesos pel COVID-19, nosaltres seguim amb "
+"els nostres plans originals. Si haguessem de modificar la data o "
+" el lloc de l'event us avisarem inmediatamente.\n"
+"                        "
+
+#: templates/guests/email_templates/invitation.html:40
+#, fuzzy
+#| msgid ""
+#| "Nos ayudarías mucho si haces click en el botón de más abajo donde pone "
+#| "'Ver tu invitación', y nos confirmaras tu asistencia, así como otros "
+#| "detalles importantes para tenerlo todo preparado."
 msgid ""
 "Nos ayudarías mucho si haces click en el botón de más abajo donde pone 'Ver "
-"tu invitación', y nos confirmaras tu asistencia, así como otros detalles "
+"tu invitación', para confirmar tu asistencia, así como otros detalles "
 "importantes para tenerlo todo preparado."
 msgstr ""
 "Ens ajudaries molt si fas click al botó de més abaix on posa 'Veure la teva "
-"invitació' i ens confirmes la teva assistència, així com altres detalls "
+"invitació', per confirmar la teva assistència, així com altres detalls "
 "importants per tenir-ho tot preparat."
 
-#: templates/guests/email_templates/invitation.html:42
+#: templates/guests/email_templates/invitation.html:48
 msgid "Ver tu invitación"
 msgstr "Veure la teva invitació"
 
-#: templates/guests/email_templates/invitation.html:64
+#: templates/guests/email_templates/invitation.html:70
 msgid "¡Os esperamos!"
 msgstr "Vos esperam!"
 
-#: templates/guests/email_templates/invitation.html:69
-#, python-format
+#: templates/guests/email_templates/invitation.html:75
+#, fuzzy, python-format
+#| msgid ""
+#| "\n"
+#| "                Boda de %(couple)s el 20 de junio de 2020\n"
+#| "                "
 msgid ""
 "\n"
-"                Boda de %(couple)s el 20 de junio de 2020\n"
+"                    Boda de %(couple)s el 20 de junio de 2020\n"
 "                "
 msgstr ""
 "\n"
 "                Boda de %(couple)s el 20 de juny de 2020\n"
 "                "
 
-#: templates/guests/email_templates/invitation.html:78
+#: templates/guests/email_templates/invitation.html:84
 msgid "Por favor confirmanos tu asistencia"
 msgstr "Per favor confirma'ns la teva asistència"
 
@@ -102,11 +125,15 @@ msgid "Boda Ana y Guillem"
 msgstr "Boda Ana i Guillem"
 
 #: templates/guests/invitation.html:13
+#, fuzzy
+#| msgid ""
+#| "20 de Junio de 2020, a las 5:30 pm<br>Ermita Santa Margalia, "
+#| "Crestatx<br>Casal Santa Eulàlia, Ca'n Picafort"
 msgid ""
-"20 de Junio de 2020, a las 5:30 pm<br>Ermita Santa Margalia, "
+"20 de Junio de 2020, a las 5:15 pm<br>Ermita Santa Margalia, "
 "Crestatx<br>Casal Santa Eulàlia, Ca'n Picafort"
 msgstr ""
-"20 de Juny de 2020, a les 5:30 pm<br>Parròquia de Nostra Senyora "
+"20 de Juny de 2020, a les 5:15 pm<br>Parròquia de Nostra Senyora "
 "d'Atocha<br>Casal Santa Eulàlia, Santa Margalida"
 
 #: templates/guests/invitation.html:19

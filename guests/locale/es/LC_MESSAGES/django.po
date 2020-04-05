@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-24 23:41+0000\n"
+"POT-Creation-Date: 2020-04-05 10:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,6 +22,61 @@ msgstr ""
 msgid "¡Nos casamos!"
 msgstr ""
 
+#: templates/guests/email_templates/invitation.html:20
+#, python-format
+msgid ""
+"\n"
+"                            Tenemos muchas ganas de compartir este día con "
+"todos vosotros, por ello hemos creado una web\n"
+"                            con la que podréis estar al día de todo lo que "
+"vayamos preparando.\n"
+"                            <br/><br/>\n"
+"                            Mientras vamos cerrando todo lo que nos queda "
+"para asegurar que sea un día memorable para\n"
+"                            todos y que lo paséis genial, pásate por la web\n"
+"                            <a href=\"%(site_url)s\" target=\"_blank\">"
+"%(site_url)s</a> y mantente informado de\n"
+"                            cómo van avanzando las cosas.\n"
+"                        "
+msgstr ""
+
+#: templates/guests/email_templates/invitation.html:33
+msgid ""
+"\n"
+"                            A pesar de la incertidumbre sobre la celebración "
+"de eventos en los próximos meses por el COVID-19, nosotros seguimos con "
+"nuestros planes originales. En caso de tener que modificar fecha o "
+"localización del evento os avisaremos immediatamente.\n"
+"                        "
+msgstr ""
+
+#: templates/guests/email_templates/invitation.html:40
+msgid ""
+"Nos ayudarías mucho si haces click en el botón de más abajo donde pone 'Ver "
+"tu invitación', para confirmar tu asistencia, así como otros detalles "
+"importantes para tenerlo todo preparado."
+msgstr ""
+
+#: templates/guests/email_templates/invitation.html:48
+msgid "Ver tu invitación"
+msgstr ""
+
+#: templates/guests/email_templates/invitation.html:70
+msgid "¡Os esperamos!"
+msgstr ""
+
+#: templates/guests/email_templates/invitation.html:75
+#, python-format
+msgid ""
+"\n"
+"                    Boda de %(couple)s el 20 de junio de 2020\n"
+"                "
+msgstr ""
+
+#: templates/guests/email_templates/invitation.html:84
+msgid "Por favor confirmanos tu asistencia"
+msgstr ""
+
 #: templates/guests/invitation.html:11
 msgid "Boda Ana y Guillem"
 msgstr "Boda Ana y Guillem"
@@ -32,7 +87,7 @@ msgstr "Boda Ana y Guillem"
 #| "20 de Junio de 2020, a las 5:30 pm<br>Parroquia de Nuestra Señora de "
 #| "Atocha<br>Casal Santa Eulàlia, Santa Margalida"
 msgid ""
-"20 de Junio de 2020, a las 5:30 pm<br>Ermita Santa Margalia, "
+"20 de Junio de 2020, a las 5:15 pm<br>Ermita Santa Margalia, "
 "Crestatx<br>Casal Santa Eulàlia, Ca'n Picafort"
 msgstr ""
 "20 de Junio de 2020, a las 5:30 pm<br>Parroquia de Nuestra Señora de "
