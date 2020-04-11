@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ['192.168.1.35', '127.0.0.1', os.getenv('ALLOWED_HOST', 'none')]
 
 # Application definition
 
-APPEND_SLASH = False
+APPEND_SLASH = os.getenv('APPEND_SLASH', True)
 
 INSTALLED_APPS = [
     'django.contrib.admin',
