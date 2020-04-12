@@ -23,20 +23,7 @@ msgid "¡Nos casamos!"
 msgstr "Ens casam!"
 
 #: templates/guests/email_templates/invitation.html:20
-#, fuzzy, python-format
-#| msgid ""
-#| "\n"
-#| "                        El próximo 20 de junio de 2020 nos casamos.<br/>\n"
-#| "                        Tenemos muchas ganas de compartir este día con "
-#| "todos vosotros, y por ello hemos creado una web para que podáis estar al "
-#| "día de todo lo que vayamos preparando.\n"
-#| "                        <br/><br/>\n"
-#| "                        Mientras vamos cerrando todo lo que nos queda "
-#| "para asegurar que sea un día memorable para todos y que lo paséis genial, "
-#| "pásate por la web <a href=\"%(site_url)s\" target=\"_blank\">"
-#| "%(site_url)s</a> y mantente informado de como\n"
-#| "                        van avanzando las cosas.\n"
-#| "                        "
+#, python-format
 msgid ""
 "\n"
 "                            Tenemos muchas ganas de compartir este día con "
@@ -62,14 +49,6 @@ msgstr ""
 "com van avançant les coses."
 
 #: templates/guests/email_templates/invitation.html:36
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "                            A pesar de la incertidumbre sobre la "
-#| "celebración de eventos en los próximos meses por el COVID-19, nosotros "
-#| "seguimos con nuestros planes originales. En caso de tener que modificar "
-#| "fecha o localización del evento os avisaremos immediatamente.\n"
-#| "                        "
 msgid ""
 "\n"
 "                            A pesar de la incertidumbre sobre la celebración "
@@ -88,11 +67,6 @@ msgstr ""
 "                        "
 
 #: templates/guests/email_templates/invitation.html:50
-#, fuzzy
-#| msgid ""
-#| "Nos ayudarías mucho si haces click en el botón de más abajo donde pone "
-#| "'Ver tu invitación', y nos confirmaras tu asistencia, así como otros "
-#| "detalles importantes para tenerlo todo preparado."
 msgid ""
 "Nos ayudarías mucho si haces click en el botón de más abajo donde pone 'Ver "
 "tu invitación', para confirmar tu asistencia, así como otros detalles "
@@ -111,11 +85,7 @@ msgid "¡Os esperamos!"
 msgstr "Vos esperam!"
 
 #: templates/guests/email_templates/invitation.html:89
-#, fuzzy, python-format
-#| msgid ""
-#| "\n"
-#| "                Boda de %(couple)s el 20 de junio de 2020\n"
-#| "                "
+#, python-format
 msgid ""
 "\n"
 "                    Boda de %(couple)s el 20 de junio de 2020\n"
@@ -134,10 +104,6 @@ msgid "Boda Ana y Guillem"
 msgstr "Boda Ana i Guillem"
 
 #: templates/guests/invitation.html:13
-#, fuzzy
-#| msgid ""
-#| "20 de Junio de 2020, a las 5:30 pm<br>Ermita Santa Margalia, "
-#| "Crestatx<br>Casal Santa Eulàlia, Ca'n Picafort"
 msgid ""
 "20 de Junio de 2020, a las 5:15 pm<br>Ermita Santa Margalia, "
 "Crestatx<br>Casal Santa Eulàlia, Ca'n Picafort"

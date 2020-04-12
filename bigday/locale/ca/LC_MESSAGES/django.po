@@ -39,28 +39,10 @@ msgid "Consejos"
 msgstr "Consells"
 
 #: templates/home.html:39
-#, fuzzy
-#| msgid "Nos casamos, ¿quieres acompañarnos?"
 msgid "Nos casamos!! ¿quieres acompañarnos?"
 msgstr "Ens casam, ens vols acompanyar?"
 
 #: templates/home.html:42
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "                            ¡Hola amigos y familia!\n"
-#| "                            El 20 de junio de 2020 nos casamos.<br/>\n"
-#| "                            Aún faltan <span id=\"dias_restantes\"></"
-#| "span> días para nuestra boda, pero si queréis estar enterados de todo, "
-#| "estáis en el lugar adecuado.<br/>\n"
-#| "                            Deberías haber recibido un correo electrónico "
-#| "con un enlace para confirmar tu asistencia.<br/>\n"
-#| "                            Por favor hazlo cuanto antes, así organizarlo "
-#| "todos nos será mucho más fácil.<br/>\n"
-#| "                            Sigue leyendo para tener toda la información "
-#| "necesaria para podernos acompañar.<br/>\n"
-#| "                            ¡Contamos contigo!\n"
-#| "                            "
 msgid ""
 "\n"
 "                            ¡Hola amigos y familia!\n"
@@ -110,8 +92,6 @@ msgid "Dónde"
 msgstr "On"
 
 #: templates/partials/ceremonia.html:13
-#, fuzzy
-#| msgid "En la Ermita Santa Margalida, en"
 msgid "En la Ermita Santa Margalida, en Crestatx."
 msgstr "A l'Ermita Santa Margalida, a Crestatx."
 
@@ -132,14 +112,6 @@ msgid "Transporte"
 msgstr "Transport"
 
 #: templates/partials/ceremonia.html:19
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "                    Dispondréis de buses desde Manacor y Ca'n Picafort "
-#| "que os llevarán la Ermita.<br/>\n"
-#| "                    El horario y punto de recogida los añadiremos en unas "
-#| "semanas.\n"
-#| "                "
 msgid ""
 "\n"
 "                        Dispondréis de buses desde Manacor y Ca'n Picafort "
@@ -175,8 +147,6 @@ msgid "Aperitivo, cena, copas y baile hasta que el cuerpo aguante."
 msgstr "Aperitiu, sopar, copes y ball fins que hi hagi forces."
 
 #: templates/partials/ceremonia.html:43
-#, fuzzy
-#| msgid "Casal Santa Eulalia"
 msgid "En el Casal Santa Eulalia"
 msgstr "Al Casal Santa Eulàlia"
 
@@ -197,9 +167,6 @@ msgid "Fin de fiesta a las 03:00."
 msgstr "Fí de festa a les 03:00."
 
 #: templates/partials/ceremonia.html:47
-#, fuzzy
-#| msgid ""
-#| "Habrá buses de la ermita al Casal, y de regreso a los puntos de origen."
 msgid ""
 "Habrá buses desde la ermita al Casal, y de regreso a los puntos de origen."
 msgstr "Hi haurà busos de l'ermita al Casal, y de tornada als punts d'origen."
@@ -221,16 +188,6 @@ msgid "¿Sin invitación?"
 msgstr "Sense invitació?"
 
 #: templates/partials/misc.html:11
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "                    No queremos gastar papel innecesariamente, por lo que "
-#| "esta boda es una boda sin invitación física.\n"
-#| "                    Por favor, confirmanos tu asistencia en el enlace que "
-#| "has recibido por correo.\n"
-#| "                    Te agradecemos lo hagas lo antes posible para "
-#| "ayudarnos en la organización.\n"
-#| "                "
 msgid ""
 "\n"
 "                        No queremos gastar papel innecesariamente, por lo "
@@ -255,13 +212,7 @@ msgid "¡Césped y suelo empedrado!"
 msgstr "Gespa i empedrat!"
 
 #: templates/partials/misc.html:25
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "                    En el lugar de la celebración hay césped, así que si "
-#| "traéis tacones os aconsejas tener a mano un calzado alternativo (o muy "
-#| "buen equilibrio).\n"
-#| "                "
+
 msgid ""
 "\n"
 "                        En el lugar de la celebración hay césped y suelo "
@@ -277,12 +228,6 @@ msgid "Para los que vayan en coche"
 msgstr "Pels que vingueu amb cotxe"
 
 #: templates/partials/misc.html:36
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "                    Aún no tenemos claro donde váis a aparcar, pero os lo "
-#| "diremos a tiempo.\n"
-#| "                "
 msgid ""
 "\n"
 "                        Aún no tenemos claro dónde tenéis que aparcar, pero "
@@ -298,14 +243,6 @@ msgid "Para los que vayan en bus"
 msgstr "Pels que vagin en bus"
 
 #: templates/partials/misc.html:47
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "                    Habrá dos buses: desde Manacor y desde Ca'n Picafort."
-#| "<br/>\n"
-#| "                    También tendréis buses para volver.<br/>\n"
-#| "                    En unas semanas os diremos dónde os recogerán.\n"
-#| "                "
 msgid ""
 "\n"
 "                        Habrá buses: desde Manacor y desde Ca'n Picafort.<br/"
@@ -321,12 +258,3 @@ msgstr ""
 "                    També tendreu busos per tornar.<br/>\n"
 "                    D'aquí unes setmanes us direm on i quan vos recolliran.\n"
 "                "
-
-#~ msgid "Crestatx"
-#~ msgstr "Crestatx"
-
-#~ msgid "En el"
-#~ msgstr "Al"
-
-#~ msgid "Horario"
-#~ msgstr "Horari"
