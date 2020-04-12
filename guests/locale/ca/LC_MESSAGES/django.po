@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-05 10:02+0000\n"
+"POT-Creation-Date: 2020-04-12 13:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,32 +53,41 @@ msgid ""
 "                        "
 msgstr ""
 "\n"
-"Tenim moltess ganes de compartir aquest dia amb tots vosaltres."
-"Per això hem fet aquesta web on podreu estar al dia de tot el que "
-"anirem preparant.\n"
+"Tenim moltess ganes de compartir aquest dia amb tots vosaltres.Per això hem "
+"fet aquesta web on podreu estar al dia de tot el que anirem preparant.\n"
 " <br/><br/>\n"
 "Mentres anam tancant tot el que ens queda per assegurar que sigui un dia "
 "memorable per tots, i que ho passeu genial, pàssat per la web <a href="
 "\"%(site_url)s\" target=\"_blank\">%(site_url)s</a> i estaràs informat de "
 "com van avançant les coses."
 
-#: templates/guests/email_templates/invitation.html:33
+#: templates/guests/email_templates/invitation.html:36
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "                            A pesar de la incertidumbre sobre la "
+#| "celebración de eventos en los próximos meses por el COVID-19, nosotros "
+#| "seguimos con nuestros planes originales. En caso de tener que modificar "
+#| "fecha o localización del evento os avisaremos immediatamente.\n"
+#| "                        "
 msgid ""
 "\n"
 "                            A pesar de la incertidumbre sobre la celebración "
-"de eventos en los próximos meses por el COVID-19, nosotros seguimos con "
-"nuestros planes originales. En caso de tener que modificar fecha o "
-"localización del evento os avisaremos immediatamente.\n"
+"de eventos en los próximos meses por el\n"
+"                            COVID-19, nosotros seguimos con nuestros planes "
+"originales. En caso de tener que modificar\n"
+"                            fecha o localización del evento os avisaremos "
+"immediatamente. Mientras tanto !cuidaos mucho!\n"
 "                        "
 msgstr ""
 "\n"
-"                            Malgrat la incertesa en la celebració "
-"d'events durant els próxims mesos pel COVID-19, nosaltres seguim amb "
-"els nostres plans originals. Si haguessem de modificar la data o "
-" el lloc de l'event us avisarem inmediatamente.\n"
+"                            Malgrat la incertesa en la celebració d'events "
+"durant els próxims mesos pel COVID-19, nosaltres seguim amb els nostres "
+"plans originals. Si haguessem de modificar la data o  el lloc de l'event us "
+"avisarem inmediatament. Mentrestant, cuidau-vos molt!\n"
 "                        "
 
-#: templates/guests/email_templates/invitation.html:40
+#: templates/guests/email_templates/invitation.html:50
 #, fuzzy
 #| msgid ""
 #| "Nos ayudarías mucho si haces click en el botón de más abajo donde pone "
@@ -93,15 +102,15 @@ msgstr ""
 "invitació', per confirmar la teva assistència, així com altres detalls "
 "importants per tenir-ho tot preparat."
 
-#: templates/guests/email_templates/invitation.html:48
+#: templates/guests/email_templates/invitation.html:61
 msgid "Ver tu invitación"
 msgstr "Veure la teva invitació"
 
-#: templates/guests/email_templates/invitation.html:70
+#: templates/guests/email_templates/invitation.html:84
 msgid "¡Os esperamos!"
 msgstr "Vos esperam!"
 
-#: templates/guests/email_templates/invitation.html:75
+#: templates/guests/email_templates/invitation.html:89
 #, fuzzy, python-format
 #| msgid ""
 #| "\n"
@@ -116,7 +125,7 @@ msgstr ""
 "                Boda de %(couple)s el 20 de juny de 2020\n"
 "                "
 
-#: templates/guests/email_templates/invitation.html:84
+#: templates/guests/email_templates/invitation.html:98
 msgid "Por favor confirmanos tu asistencia"
 msgstr "Per favor confirma'ns la teva asistència"
 

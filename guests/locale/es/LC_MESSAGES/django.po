@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-05 10:02+0000\n"
+"POT-Creation-Date: 2020-04-12 13:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,32 +40,34 @@ msgid ""
 "                        "
 msgstr ""
 
-#: templates/guests/email_templates/invitation.html:33
+#: templates/guests/email_templates/invitation.html:36
 msgid ""
 "\n"
 "                            A pesar de la incertidumbre sobre la celebración "
-"de eventos en los próximos meses por el COVID-19, nosotros seguimos con "
-"nuestros planes originales. En caso de tener que modificar fecha o "
-"localización del evento os avisaremos immediatamente.\n"
+"de eventos en los próximos meses por el\n"
+"                            COVID-19, nosotros seguimos con nuestros planes "
+"originales. En caso de tener que modificar\n"
+"                            fecha o localización del evento os avisaremos "
+"immediatamente. Mientras tanto !cuidaos mucho!\n"
 "                        "
 msgstr ""
 
-#: templates/guests/email_templates/invitation.html:40
+#: templates/guests/email_templates/invitation.html:50
 msgid ""
 "Nos ayudarías mucho si haces click en el botón de más abajo donde pone 'Ver "
 "tu invitación', para confirmar tu asistencia, así como otros detalles "
 "importantes para tenerlo todo preparado."
 msgstr ""
 
-#: templates/guests/email_templates/invitation.html:48
+#: templates/guests/email_templates/invitation.html:61
 msgid "Ver tu invitación"
 msgstr ""
 
-#: templates/guests/email_templates/invitation.html:70
+#: templates/guests/email_templates/invitation.html:84
 msgid "¡Os esperamos!"
 msgstr ""
 
-#: templates/guests/email_templates/invitation.html:75
+#: templates/guests/email_templates/invitation.html:89
 #, python-format
 msgid ""
 "\n"
@@ -73,7 +75,7 @@ msgid ""
 "                "
 msgstr ""
 
-#: templates/guests/email_templates/invitation.html:84
+#: templates/guests/email_templates/invitation.html:98
 msgid "Por favor confirmanos tu asistencia"
 msgstr ""
 
