@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-05 09:58+0000\n"
+"POT-Creation-Date: 2020-04-12 14:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -110,12 +110,14 @@ msgid "Dónde"
 msgstr "On"
 
 #: templates/partials/ceremonia.html:13
-msgid "En la Ermita Santa Margalida, en"
-msgstr "A l'Ermita Santa Margalida, a"
+#, fuzzy
+#| msgid "En la Ermita Santa Margalida, en"
+msgid "En la Ermita Santa Margalida, en Crestatx."
+msgstr "A l'Ermita Santa Margalida, a Crestatx."
 
-#: templates/partials/ceremonia.html:16
-msgid "Crestatx"
-msgstr "Crestatx"
+#: templates/partials/ceremonia.html:16 templates/partials/ceremonia.html:45
+msgid " Click para ver el mapa"
+msgstr " Click per veure el mapa"
 
 #: templates/partials/ceremonia.html:17
 msgid "Cuándo"
@@ -141,15 +143,16 @@ msgstr "Transport"
 msgid ""
 "\n"
 "                        Dispondréis de buses desde Manacor y Ca'n Picafort "
-"que os llevarán la Ermita.<br/>\n"
+"que os llevarán la ermita.<br/>\n"
 "                        En unas semanas añadiremos el horario y puntos de "
 "recogida.\n"
 "                    "
 msgstr ""
 "\n"
 "                    Disposareu de busos desde Manacor i Ca'n Picafort que "
-"vos duran fins l'Ermita.<br/>\n"
-"                    D'aquí unes setmanes afegirem l'horari i punts de recollida"
+"vos duran fins l'ermita.<br/>\n"
+"                    D'aquí unes setmanes afegirem l'horari i punts de "
+"recollida"
 
 #: templates/partials/ceremonia.html:23
 msgid "¿Y si voy en coche?"
@@ -172,14 +175,12 @@ msgid "Aperitivo, cena, copas y baile hasta que el cuerpo aguante."
 msgstr "Aperitiu, sopar, copes y ball fins que hi hagi forces."
 
 #: templates/partials/ceremonia.html:43
-msgid "En el"
-msgstr "Al"
+#, fuzzy
+#| msgid "Casal Santa Eulalia"
+msgid "En el Casal Santa Eulalia"
+msgstr "Al Casal Santa Eulàlia"
 
-#: templates/partials/ceremonia.html:45
-msgid "Casal Santa Eulalia"
-msgstr "Casal Santa Eulàlia"
-
-#: templates/partials/ceremonia.html:45
+#: templates/partials/ceremonia.html:43
 msgid "cerca de Ca'n Picafort."
 msgstr "aprop de Ca'n Picafort."
 
@@ -268,7 +269,8 @@ msgid ""
 "                    "
 msgstr ""
 "\n"
-"                    Al lloc de la celebració hi ha gespa i sòl rústic. Cuida els teus turmells!"
+"                    Al lloc de la celebració hi ha gespa i sòl rústic. Cuida "
+"els teus turmells!"
 
 #: templates/partials/misc.html:33
 msgid "Para los que vayan en coche"
@@ -283,8 +285,8 @@ msgstr "Pels que vingueu amb cotxe"
 #| "                "
 msgid ""
 "\n"
-"                        Aún no tenemos claro donde váis a aparcar, pero os "
-"lo diremos a tiempo.\n"
+"                        Aún no tenemos claro donde tenéis que aparcar, pero "
+"os lo diremos a tiempo.\n"
 "                    "
 msgstr ""
 "\n"
@@ -319,6 +321,12 @@ msgstr ""
 "                    També tendreu busos per tornar.<br/>\n"
 "                    D'aquí unes setmanes us direm on i quan vos recolliran.\n"
 "                "
+
+#~ msgid "Crestatx"
+#~ msgstr "Crestatx"
+
+#~ msgid "En el"
+#~ msgstr "Al"
 
 #~ msgid "Horario"
 #~ msgstr "Horari"
