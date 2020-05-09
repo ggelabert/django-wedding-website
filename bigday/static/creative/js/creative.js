@@ -51,7 +51,7 @@
 
     const oneDay = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
     const firstDate = new Date();
-    const secondDate = new Date(2020, 10, 3);
+    const secondDate = new Date(2020, 9, 3);
 
     const diffDays = Math.round(Math.abs((secondDate - firstDate) / oneDay));
 
