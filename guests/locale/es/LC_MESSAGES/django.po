@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-12 13:29+0000\n"
+"POT-Creation-Date: 2020-05-09 11:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,63 +19,74 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: templates/guests/email_templates/invitation.html:11
-msgid "¡Nos casamos!"
+msgid "¡Nos casamos... otro día!"
 msgstr ""
 
 #: templates/guests/email_templates/invitation.html:20
+msgid ""
+"\n"
+"                            Dada la situación actual con el COVID-19, hemos "
+"tomado la decisión de aplazar nuestra boda\n"
+"                            para poder celebrarla como habíamos planeado, en "
+"compañia de todos vosotros y en un ambiente\n"
+"                            seguro.\n"
+"                            Nuestra nueva fecha es el <strong>3 de octubre "
+"de 2020</strong> ¡os esperamos a todos!\n"
+"                        "
+msgstr ""
+
+#: templates/guests/email_templates/invitation.html:34
 #, python-format
 msgid ""
 "\n"
-"                            Tenemos muchas ganas de compartir este día con "
-"todos vosotros, por ello hemos creado una web\n"
-"                            con la que podréis estar al día de todo lo que "
-"vayamos preparando.\n"
-"                            <br/><br/>\n"
 "                            Mientras vamos cerrando todo lo que nos queda "
-"para asegurar que sea un día memorable para\n"
-"                            todos y que lo paséis genial, pásate por la web\n"
+"para asegurar que sea un día memorable y que lo pasemos genial, pásate por "
+"la web\n"
 "                            <a href=\"%(site_url)s\" target=\"_blank\">"
 "%(site_url)s</a> y mantente informado de\n"
 "                            cómo van avanzando las cosas.\n"
 "                        "
 msgstr ""
 
-#: templates/guests/email_templates/invitation.html:36
+#: templates/guests/email_templates/invitation.html:49
 msgid ""
 "\n"
-"                            A pesar de la incertidumbre sobre la celebración "
-"de eventos en los próximos meses por el\n"
-"                            COVID-19, nosotros seguimos con nuestros planes "
-"originales. En caso de tener que modificar\n"
-"                            fecha o localización del evento os avisaremos "
-"immediatamente. Mientras tanto ¡cuidaos mucho!\n"
-"                        "
+"                                Si no habías confirmado tu asistencia, o si "
+"la nueva fecha te supone un cambio de\n"
+"                                planes, haz click en el botón de abajo y "
+"actualiza tu información. Debido a la\n"
+"                                nueva normalidad, te pedimos por favor que "
+"lo hagas antes del 15 de julio para poder\n"
+"                                planificar el evento en consecuencia.<br/"
+"><br/>\n"
+"                                Si no te es posible hacerlo antes de esta "
+"fecha, ponte en contacto con\n"
+"                                nosotros para que podamos tenerlo en "
+"cuenta.\n"
+"                                <br/><br/>\n"
+"                                Muchas gracias\n"
+"                            "
 msgstr ""
 
-#: templates/guests/email_templates/invitation.html:50
-msgid ""
-"Nos ayudarías mucho si haces click en el botón de más abajo donde pone 'Ver "
-"tu invitación', para confirmar tu asistencia, así como otros detalles "
-"importantes para tenerlo todo preparado."
-msgstr ""
+#: templates/guests/email_templates/invitation.html:70
+#, fuzzy
+#| msgid "Confirmación"
+msgid "Confirmar asistencia"
+msgstr "Confirmación"
 
-#: templates/guests/email_templates/invitation.html:61
-msgid "Ver tu invitación"
-msgstr ""
-
-#: templates/guests/email_templates/invitation.html:84
+#: templates/guests/email_templates/invitation.html:95
 msgid "¡Os esperamos!"
 msgstr ""
 
-#: templates/guests/email_templates/invitation.html:89
+#: templates/guests/email_templates/invitation.html:100
 #, python-format
 msgid ""
 "\n"
-"                    Boda de %(couple)s el 20 de junio de 2020\n"
+"                    Boda de %(couple)s el 3 de octubre de 2020\n"
 "                "
 msgstr ""
 
-#: templates/guests/email_templates/invitation.html:98
+#: templates/guests/email_templates/invitation.html:109
 msgid "Por favor confirmanos tu asistencia"
 msgstr ""
 
