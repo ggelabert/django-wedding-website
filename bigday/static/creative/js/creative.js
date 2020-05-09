@@ -53,7 +53,7 @@
     const firstDate = new Date();
     const secondDate = new Date(2020, 10, 3);
 
-    const diffDays = Math.round(Math.abs((firstDate - secondDate) / oneDay));
+    const diffDays = Math.round(Math.abs((secondDate - firstDate) / oneDay));
 
     $('#dias_restantes').text(diffDays);
 
