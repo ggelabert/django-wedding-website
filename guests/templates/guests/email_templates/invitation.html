@@ -8,7 +8,7 @@
             <table border="0" cellpadding="0" cellspacing="0" align="center">
                 <tbody>
                 <tr align="center" style="font-size: 32px;">
-                    <td>{% trans "¡Nos casamos!" %}</td>
+                    <td>{% trans "¡Nos casamos... otro día!" %}</td>
                 </tr>
                 <tr>
                     <td>
@@ -18,14 +18,12 @@
                 <tr>
                     <td>
                         {% blocktrans %}
-                            Tenemos muchas ganas de compartir este día con todos vosotros, por ello hemos creado una web
-                            con la que podréis estar al día de todo lo que vayamos preparando.
-                            <br/><br/>
-                            Mientras vamos cerrando todo lo que nos queda para asegurar que sea un día memorable para
-                            todos y que lo paséis genial, pásate por la web
-                            <a href="{{ site_url }}" target="_blank">{{ site_url }}</a> y mantente informado de
-                            cómo van avanzando las cosas.
+                            Dada la situación actual con el COVID-19, hemos tomado la decisión de aplazar nuestra boda
+                            para poder celebrarla como habíamos planeado, en compañia de todos vosotros y en un ambiente
+                            seguro.
+                            Nuestra nueva fecha es el <strong>3 de octubre de 2020</strong> ¡os esperamos a todos!
                         {% endblocktrans %}
+
                     </td>
                 </tr>
                 <tr>
@@ -34,9 +32,9 @@
                 <tr>
                     <td>
                         {% blocktrans %}
-                            A pesar de la incertidumbre sobre la celebración de eventos en los próximos meses por el
-                            COVID-19, nosotros seguimos con nuestros planes originales. En caso de tener que modificar
-                            fecha o localización del evento os avisaremos immediatamente. Mientras tanto ¡cuidaos mucho!
+                            Mientras vamos cerrando todo lo que nos queda para asegurar que sea un día memorable y que lo pasemos genial, pásate por la web
+                            <a href="{{ site_url }}" target="_blank">{{ site_url }}</a> y mantente informado de
+                            cómo van avanzando las cosas.
                         {% endblocktrans %}
                     </td>
                 </tr>
@@ -47,7 +45,18 @@
                 </tr>
                 <tr>
                     <td>
-                        <strong>{% trans "Nos ayudarías mucho si haces click en el botón de más abajo donde pone 'Ver tu invitación', para confirmar tu asistencia, así como otros detalles importantes para tenerlo todo preparado." %}</strong>
+                        <strong>
+                            {% blocktrans %}
+                                Si no habías confirmado tu asistencia, o si la nueva fecha te supone un cambio de
+                                planes, haz click en el botón de abajo y actualiza tu información. Debido a la
+                                nueva normalidad, te pedimos por favor que lo hagas antes del 15 de julio para poder
+                                planificar el evento en consecuencia.<br/><br/>
+                                Si no te es posible hacerlo antes de esta fecha, ponte en contacto con
+                                nosotros para que podamos tenerlo en cuenta.
+                                <br/><br/>
+                                Muchas gracias
+                            {% endblocktrans %}
+                        </strong>
                     </td>
                 </tr>
                 <tr>
@@ -58,11 +67,13 @@
                         <a href="{% if email_mode %}{{ site_url }}{% endif %}{% url 'invitation' invitation_id %}"
                            target="_blank"
                            style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; background-color: #337ab7; border-top: 12px solid #337ab7; border-bottom: 12px solid #337ab7; border-right: 18px solid #337ab7; border-left: 18px solid #337ab7; display: inline-block;">
-                            {% trans "Ver tu invitación" %}
+                            {% trans "Confirmar asistencia" %}
                         </a>
                     </td>
                 </tr>
-                <tr><td>&nbsp;</td></tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
                 </tbody>
             </table>
         </td>
@@ -87,7 +98,7 @@
             <td style="font-weight:bold;padding: 20px 0 0 0; font-size: 16px; line-height: 20px; font-family: Helvetica, Arial, sans-serif; color: {{ font_color }};"
                 class="padding-copy" align="center">
                 {% blocktrans %}
-                    Boda de {{ couple }} el 20 de junio de 2020
+                    Boda de {{ couple }} el 3 de octubre de 2020
                 {% endblocktrans %}<br>
             </td>
         </tr>
