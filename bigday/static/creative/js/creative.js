@@ -58,4 +58,4 @@
     $('#dias_restantes').text(diffDays);
 
 
-})(jQuery); // End of use strict
+})(jQuery); // End of use strict8///////////

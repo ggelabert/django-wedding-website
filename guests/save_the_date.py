@@ -105,7 +105,7 @@ def send_save_the_date_email(context, recipients, test_only=False):
     context['site_url'] = settings.WEDDING_WEBSITE_URL
     context['couple'] = settings.BRIDE_AND_GROOM
     template_html = render_to_string(SAVE_THE_DATE_TEMPLATE, context=context)
-    template_text = "Save the date para la boda de {}! 20 de junio de 2020. Ermita Santa Margalida, Crestatx".format(
+    template_text = "Save the date para la boda de {}! 03 de octubre de 2020. Ermita Santa Margalida, Crestatx".format(
         settings.BRIDE_AND_GROOM
     )
     subject = 'Save the Date!'
