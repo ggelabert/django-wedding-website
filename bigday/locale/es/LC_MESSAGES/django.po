@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-09 11:30+0000\n"
+"POT-Creation-Date: 2020-05-18 14:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,7 +87,7 @@ msgid "Cuándo"
 msgstr ""
 
 #: templates/partials/ceremonia.html:17
-msgid "Día 20 de junio de 2020, a las 17:15."
+msgid "Día 3 de octubre de 2020, a las 17:15."
 msgstr ""
 
 #: templates/partials/ceremonia.html:18 templates/partials/ceremonia.html:47
