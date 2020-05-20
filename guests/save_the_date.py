@@ -129,6 +129,6 @@ def send_save_the_date_email(context, recipients, test_only=False):
 def clear_all_save_the_dates():
     print('clear')
     for party in Party.objects.exclude(invitation_sent=None):
-        party.save_the_date_sent = None
+        party.invitation_sent = None
         print("resetting {}".format(party))
         party.save()
