@@ -1,0 +1,126 @@
+{% extends 'guests/email_templates/email_base.html' %}
+{% load i18n %}
+{% load static %}
+{% block header_image %}{% endblock %}
+{% block lead_copy %}
+    <tr>
+        <td>
+            <table border="0" cellpadding="0" cellspacing="0" align="center">
+                <tbody>
+                <tr align="center" style="font-size: 32px;">
+                    <td>{% trans "¡Ya está llegando el día!" %}</td>
+                </tr>
+                <tr>
+                    <td>
+                        <hr/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        {% blocktrans %}
+                            El día de la boda está ya muy cerca, y tenemos casi todo listo.
+                            Tenemos muchas ganas de compartir este día con vosotros.
+                        {% endblocktrans %}
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        {% blocktrans %}
+
+                        {% endblocktrans %}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <hr/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                        <h2>Para asegurar que todo se desarrolla en un entorno seguro, os recordamos una serie de
+                            normas</h2>
+                        Traed dos mascarillas. <br/>El evento durará varias horas y en algún momento os la tendréis
+                                que cambiar.
+                        <h3>Ceremonia</h3>
+                        <ul>
+                            <li>
+                            </li>
+                        </ul>
+                        <h3>Aperitivo</h3>
+
+                        <ul>
+                                <li>Os hemos distribuido en las mesas de forma que podáis respetar la distancia de
+                                    seguridad.
+                                </li>
+                                <li>No podréis cambiaros de sitio ni mover las sillas durante la cena.</li>
+                                <li></li>
+                            </ul>
+                        <h3>Cena</h3>
+                        <ul>
+                            <li>Recordad respetar la distancia de 1.5m con las personas con las que no conviváis.</li>
+                            <li>Aperitivo (si hay algo).</li>
+                            <ul>
+                                <li>Aperitivo 1</li>
+                                <li>Aperitivo 2</li>
+                            </ul>
+                            <li>Cena</li>
+                            <ul>
+                                <li>Os hemos distribuido en las mesas de forma que podáis respetar la distancia de
+                                    seguridad.
+                                </li>
+                                <li>No podréis cambiaros de sitio ni mover las sillas durante la cena.</li>
+                                <li></li>
+                            </ul>
+                        </ul>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr align="center">
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+{% endblock %}
+{% block main_image %}
+    {% with "invitation/images/"|add:main_image as main_static_url %}
+{#        <img src="{% if email_mode %}cid:{{ main_image }}{% else %}{% static main_static_url %}{% endif %}"#}
+{#             alt="{{ couple }}"#}
+{#             style="display: block; padding: 0; color: #666666;"#}
+{#             class="img-max" border="0"#}
+{#             height="512" width="512">#}
+    {% endwith %}
+{% endblock %}
+{% block main_copy %}
+    <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center">
+        <tbody>
+        <tr align="center" style="font-size: 32px;">
+            <td>{% trans "¡Os esperamos!" %}</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold;padding: 20px 0 0 0; font-size: 16px; line-height: 20px; font-family: Helvetica, Arial, sans-serif; color: {{ font_color }};"
+                class="padding-copy" align="center">
+                {% blocktrans %}
+                    Boda de {{ couple }} el 3 de octubre de 2020
+                {% endblocktrans %}<br>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+{% endblock %}
+{% block footer_content %}
+
+{% endblock %}

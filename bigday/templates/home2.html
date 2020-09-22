@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+{% block page_head %}
+    <!-- Custom CSS -->
+    <link href="{% static 'bigday/css/creative.css' %}" rel="stylesheet">
+{% endblock %}
+{% block page_content %}
+    <form id="language_form" action="{% url 'set_language' %}" method="post">{% csrf_token %}
+        <input name="next" type="hidden" value="{{ redirect_to }}">
+        {% get_current_language as LANGUAGE_CODE %}
+        <input id="language" name="language" type="hidden" value="{{ LANGUAGE_CODE }}"/>
+        <nav class="nav" style="background-color: aliceblue;">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#main-header">{% trans "Inicio" %}</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#ceremonia">{% trans "Ceremonia" %}</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#fiesta">{% trans "Fiesta" %}</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#consejos">{% trans "Consejos" %}</a>
+                </li>
+
+                <li><a class="nav-link" id="language_es" href="#">Castellano</a></li>
+                <li><a class="nav-link" id="language_ca" href="#">Català</a></li>
+
+            </ul>
+        </nav>
+    </form>
+    {% block main %}
+        <section id="welcome">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col text-center">
+                        <h2>{% trans "Nos casamos!! ¿quieres acompañarnos?" %}</h2>
+                        <img class="img-thumbnail" style="width:500px;"
+                             src="{% static 'bigday/images/parque-mirada.jpg' %}">
+                        <p>{% blocktrans %}
+                            ¡Hola amigos y familia!
+                            El 3 de octubre de 2020 nos casamos.<br/>
+                            Aún faltan <span id="dias_restantes"></span> días para nuestra boda, pero si quieres estar
+                            enterado de todo, estás en el lugar adecuado.<br/>
+                            Deberías haber recibido un correo electrónico con un enlace para confirmar tu asistencia.
+                            <br/>
+                            Por favor hazlo cuanto antes, así organizarlo todo nos será mucho más fácil.<br/>
+                            Sigue leyendo para tener la información necesaria.<br/>
+                            ¡Contamos contigo!
+                        {% endblocktrans %}
+                        </p>
+                    </div>
+                <div class="col-sm-3">&nbsp;</div>
+                </div>
+            </div>
+        </section>
+        {% include 'partials/ceremonia.html' %}
+        <section id="consejos">
+            {% include 'partials/misc2.html' %}
+        </section>
+        {#        {% include 'partials/save-the-dates.html' %}#}
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <h2 class="section-heading">{% trans "Nuestro contacto" %}</h2>
+                        <hr class="primary">
+                        <p>{% trans "Si tienes cualquier duda o consulta, ¡pregunta!" %}</p>
+
+                        <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                        <p><a href="mailto:{{ support_email }}">{{ support_email }}</a></p>
+                    </div><div class="col-sm-3">&nbsp;</div>
+                </div>
+            </div>
+        </section>
+    {% endblock %}
+{% endblock %}
+{% block page_js %}
+    <!-- Plugin JavaScript -->
+    <!-- Easing is for the vertical scroll animations -->
+    <script src="{% static 'creative/js/jquery.easing.min.js' %}"></script>
+    <!-- Automatically fit text based on screen size.-->
+    <script src="{% static 'creative/js/jquery.fittext.js' %}"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="{% static 'creative/js/creative.js' %}"></script>
+{% endblock %}

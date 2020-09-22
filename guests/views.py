@@ -117,6 +117,12 @@ def invitation_email_preview(request, invite_id):
     context = get_invitation_context(party)
     return render(request, INVITATION_TEMPLATE, context=context)
 
+@login_required
+def invitation_email_preview(request, invite_id):
+    party = guess_party_by_invite_id_or_404(invite_id)
+    context = get_invitation_context(party)
+    return render(request, 'guests/email_templates/normas.html', context=context)
+
 
 @login_required
 def invitation_email_test(request, invite_id):
